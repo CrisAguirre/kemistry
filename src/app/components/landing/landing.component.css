@@ -63,6 +63,7 @@ iframe{
 #features svg{
     filter: invert(1) !important;
 }
+
 @media (max-width: 900px){
     .hero{
         margin-top: 130px !important;
