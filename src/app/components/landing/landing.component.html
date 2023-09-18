@@ -61,11 +61,11 @@
       <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
     </symbol>
 </svg>
-<!-- nav -->
+<!-- Barra de Menu -->
 <nav class="navbar navbar-expand-lg bg-dark fixed-top">
     <div class="container-fluid container">
       <div class="container col-3 col-sm-3 col-lg-2 center-important">
-        <img src="../../assets/img/logo2.png" loading="lazy">
+        <img onClick="window.location.reload();" src="../../assets/img/logo2.png" loading="lazy">
       </div>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -96,29 +96,19 @@
       </div>
     </div>
 </nav>
-<!-- carousel -->
-<app-carousel [images]="images"
-  [autoSlide]="true"
-></app-carousel>
-<!-- banner 3 -->
-<div class="container-fluid m-0 p-0 img-banner">
-  <img class="m-0 p-0" src="../../assets/img/psp-hero-banner-homepage-getsupport.image.large_2x.jpg" alt="">
-</div>
-<!-- hero -->
+<!-- Carrusel -->
+<app-carousel [images]="images" [autoSlide]="true"></app-carousel>
+<!-- Banner1 + Texto -->
 <div class="container">
    <div class="container-fluid row flex-lg-row-reverse align-items-center justify-content-center g-3 mt-4 me-0 pe-0 hero px-4">
     <div class="container col-10 col-sm-8 col-lg-6 center-important">
       <img src="../../assets/img/iphone_14_hero__ceub5xriecgi_medium_2x.jpeg" loading="lazy">
     </div>
     <div class="col-lg-6 center-important p-4">
-      <!--<h1 class="display-4 fw-bold lh-1 mb-2">Kemistry Clothing</h1>
-      <h1 class="display-6 fw-bold lh-1 mb-4">Ropa y Accesorios</h1>-->
       <div class="col m-2">
-
             <div class="container center-important">
               <img src="../../assets/img/logo-foot.png" loading="lazy">
-            </div>
-          
+            </div>         
       </div>
       <p class="lead">Creamos prendas de vestir de alta calidad, con materiales duraderos y diseños únicos, visita nuestra tienda virtual.</p>
       <div class="d-grid pb-5 gap-2 d-md-flex justify-content-md-start">
@@ -128,7 +118,93 @@
     </div>
   </div>
 </div>
-<!-- features -->
+<!-- Banner 2 -->
+<div class="container-fluid m-0 p-0 img-banner">
+  <img class="m-0 p-0" src="../../assets/img/psp-hero-banner-homepage-getsupport.image.large_2x.jpg" alt="">
+</div>
+<!-- Banner 3 -->
+<img class="img-banner container-fluid m-0 p-0" src="../../assets/img/Papers.co-oe69-nature-simple-sky-mountain-androidsss-large.jpg">
+<!-- Productos y Precios -->
+<div class="container" id="prices">
+    <div class="pricing-header p-1 pb-md-1 text-center mt-4 px-4" >
+      <h1 class="display-4 fw-normal">Diseños Exclusivos</h1>
+      <p class="fs-5 text-muted ms-1 me-1">Conoce nuestra línea de productos.</p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 text-center p-3 pb-4 pricing-margin ">
+        <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm m-1">
+                <div class="card-header py-3 text-bg-primary border-primary">
+                    <h4 class="my-0 fw-normal">Hoodies</h4>
+                </div>
+                <div class="card-body">
+                  <div class="col m-2">
+                    <div class="container center-important">
+                      <img src="../../assets/img/1.png" loading="lazy">
+                    </div>  
+                  </div>
+                    <h1 class="card-title pricing-card-title">$100.000<small class="text-muted fw-light">/mco</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>Buso en algodón perchado Monaco</li>
+                        <li>Capucha con forro afelpado o liso</li>
+                        <li>Mangas y cintura en tela Reed</li>
+                        <li>Cordón de buen calibre y resistente</li>
+                        <li>Ojal y campana en acero inoxidable</li>
+                        <li>Costura frontal bolsillo - hombro</li>
+                        <li></li>
+                    </ul>
+                    <a type="button" class="w-100 btn btn-lg btn-outline-primary" href="#contact">Detalles</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm m-1">
+                <div class="card-header py-3 text-bg-primary border-primary">
+                    <h4 class="my-0 fw-normal">Camisas Raglan</h4>
+                </div>
+                <div class="card-body">
+                  <div class="col m-2">
+                    <div class="container center-important">
+                      <img src="../../assets/img/2.jpg" loading="lazy">
+                    </div>  
+                  </div>
+                    <h1 class="card-title pricing-card-title">$70.000<small class="text-muted fw-light">/mco</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>Camisa en tela Circuito</li>
+                      <li>Colores customizables</li>
+                      <li>Cuello en tela Reed</li>
+                      <li>Manga larga - 3x4 - corta</li>
+                      <li>Cuello normal - bandeja para dama</li>
+                      <li>Gran detalle en terminados</li>
+                      <li></li>
+                    </ul>
+                    <a type="button" class="w-100 btn btn-lg btn-outline-primary" href="#contact">Detalles</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm m-1 border-primary">
+                <div class="card-header py-3 text-bg-primary border-primary">
+                    <h4 class="my-0 fw-normal">Estampados</h4>
+                </div>
+                <div class="card-body">
+                  <div class="col m-2">
+                    <div class="container center-important">
+                      <img src="../../assets/img/3.png" loading="lazy">
+                    </div>  
+                  </div>
+                    <h1 class="card-title pricing-card-title">$30.000<small class="text-muted fw-light">/mco</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>Serigrafía de excelente calidad y duración, conoce la vista previa de tu estampado, 
+                        manejamos diseños perzonalizados.</li>
+                      <li>* El precio depende de la imagen seleccionada y del área de estampado en la prenda.</li>
+                    </ul>
+                    <a type="button" class="w-100 btn btn-lg btn-outline-primary" href="#contact">Detalles</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Características -->
 <div class="container-fluid py-4 bg-dark text-bg-dark px-4" id="features" >
   <div class="container">
       <h2 class="border-bottom pb-2 pt-4">Características</h2>
@@ -158,91 +234,9 @@
       </div>
   </div>
 </div>
-<!-- banner 0 -->
-<img class="img-banner container-fluid m-0 p-0" src="../../assets/img/Papers.co-oe69-nature-simple-sky-mountain-androidsss-large.jpg">
-<!-- prices -->
-<div class="container" id="prices">
-    <div class="pricing-header p-1 pb-md-1 text-center mt-4 px-4" >
-      <h1 class="display-4 fw-normal">Diseños Exclusivos</h1>
-      <p class="fs-5 text-muted ms-1 me-1">Conoce nuestras líneas de mercado y servicios.</p>
-    </div>
-    <div class="row row-cols-1 row-cols-md-3 text-center p-3 pb-4 pricing-margin ">
-        <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm m-1">
-                <div class="card-header py-3 text-bg-primary border-primary">
-                    <h4 class="my-0 fw-normal">Hoodies</h4>
-                </div>
-                <div class="card-body">
-                  <div class="col m-2">
-                    <div class="container center-important">
-                      <img src="../../assets/img/1.png" loading="lazy">
-                    </div>  
-                  </div>
-                    <h1 class="card-title pricing-card-title">$100.000<small class="text-muted fw-light">/mco</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>Buso en algodón perchado Monaco</li>
-                        <li>Capucha con forro afelpado o liso</li>
-                        <li>Mangas y cintura en tela Reed</li>
-                        <li>Cordón de buen calibre y resistente</li>
-                        <li>Ojal y campana en acero inoxidable</li>
-                        <li>Costura frontal bolsillo - hombro</li>
-                    </ul>
-                    <a type="button" class="w-100 btn btn-lg btn-outline-primary" href="#contact">Detalles</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm m-1">
-                <div class="card-header py-3 text-bg-primary border-primary">
-                    <h4 class="my-0 fw-normal">Camisas Raglan</h4>
-                </div>
-                <div class="card-body">
-                  <div class="col m-2">
-                    <div class="container center-important">
-                      <img src="../../assets/img/2.jpg" loading="lazy">
-                    </div>  
-                  </div>
-                    <h1 class="card-title pricing-card-title">$70.000<small class="text-muted fw-light">/mco</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                      <li>Camisa en tela Circuito</li>
-                      <li>Colores customizables</li>
-                      <li>Cuello en tela Reed</li>
-                      <li>Manga larga - 3x4 - corta</li>
-                      <li>Cuello normal - bandeja para dama</li>
-                      <li>Gran detalle en terminados</li>
-                    </ul>
-                    <a type="button" class="w-100 btn btn-lg btn-outline-primary" href="#contact">Detalles</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm m-1 border-primary">
-                <div class="card-header py-3 text-bg-primary border-primary">
-                    <h4 class="my-0 fw-normal">Estampados</h4>
-                </div>
-                <div class="card-body">
-                  <div class="col m-2">
-                    <div class="container center-important">
-                      <img src="../../assets/img/3.png" loading="lazy">
-                    </div>  
-                  </div>
-                    <h1 class="card-title pricing-card-title">$120.000<small class="text-muted fw-light">/mco</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>Empleamos técnica de Serigrafía</li>
-                        <li>Excelente calidad y duración</li>
-                        <li>Diseños preestablecidos y perzonalizados</li>
-                        <li>Recibe muestra digital previa de tu diseño con tu cotización</li>
-                        
-                    </ul>
-                    <a type="button" class="w-100 btn btn-lg btn-outline-primary" href="#contact">Detalles</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- banner 1 -->
+<!-- Banner 4 -->
 <img class="img-banner container-fluid m-0 p-0" src="../../assets/img/Papers.co-oe69-nature-simple-sky-mountain-android-large2.jpg">
-<!-- contact -->
+<!-- Contacto -->
 <div class="container-fluid p-0 m-0 bg-dark pb-1 px-4" id="contact">
 <div class="container pt-0 pb-5  contact-container text-bg-dark " id="contact">
   <h2 class="pb-2 pt-5 border-bottom mb-4">Contacto</h2>
@@ -277,4 +271,5 @@
   </div>
 </div>
 </div>
+<!-- Footer -->
 <app-footer></app-footer>

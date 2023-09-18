@@ -25,7 +25,7 @@ export class CarouselComponent implements OnInit {
 
   ngOnInit(): void {
     if(this.autoSlide) {
-    this.autoSlideImages();
+    /*this.autoSlideImages();*/
     }
   }
     
