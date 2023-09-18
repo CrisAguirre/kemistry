@@ -64,11 +64,8 @@
 <!-- nav -->
 <nav class="navbar navbar-expand-lg bg-dark fixed-top">
     <div class="container-fluid container">
-      <div class="container col-3 col-sm-2 col-lg-1 center-important">
-        <img src="../../assets/img/Logo2 - copia.svg" loading="lazy">
-      </div>
-      <div class="container col-3 col-sm-2 col-lg-1 center-important">
-        <a class="left-important navbar-brand h1 mt-1 text-light" routerLink="/">Kemistry</a>        
+      <div class="container col-3 col-sm-3 col-lg-2 center-important">
+        <img src="../../assets/img/logo2.png" loading="lazy">
       </div>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -76,7 +73,16 @@
             <a class="nav-link active text-light" aria-current="page" routerLink="#features">Hoodies</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="#prices">Camisas 3x4</a>
+            <a class="nav-link active text-light" aria-current="page" routerLink="#prices">Camisas Raglan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" routerLink="#prices">Camisetas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" routerLink="#prices">Estampados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" routerLink="#contact">Nosotros</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active text-light" aria-current="page" routerLink="#contact">Contacto</a>
@@ -84,12 +90,20 @@
         </ul>
         <form class="d-flex">
           <a routerLink="./shop">
-            <button class="btn btn-primary" type="button">Store</button>
+            <button class="btn btn-primary" type="button">Tienda</button>
           </a>
         </form>
       </div>
     </div>
 </nav>
+<!-- carousel -->
+<app-carousel [images]="images"
+  [autoSlide]="true"
+></app-carousel>
+<!-- banner 3 -->
+<div class="container-fluid m-0 p-0 img-banner">
+  <img class="m-0 p-0" src="../../assets/img/psp-hero-banner-homepage-getsupport.image.large_2x.jpg" alt="">
+</div>
 <!-- hero -->
 <div class="container">
    <div class="container-fluid row flex-lg-row-reverse align-items-center justify-content-center g-3 mt-4 me-0 pe-0 hero px-4">
@@ -101,16 +115,12 @@
       <h1 class="display-6 fw-bold lh-1 mb-4">Ropa y Accesorios</h1>
       <p class="lead">Creamos prendas de vestir de alta calidad, con materiales duraderos y diseños únicos, visita nuestra tienda virtual.</p>
       <div class="d-grid pb-5 gap-2 d-md-flex justify-content-md-start">
-        <a type="button" class="btn btn-primary btn-lg px-4 me-md-2" href="./shop">Store</a>
+        <a type="button" class="btn btn-primary btn-lg px-4 me-md-2" href="./shop">Tienda</a>
         <a type="button" class="btn btn-outline-secondary btn-lg px-4" href="#prices">Kemistry</a>
       </div>
     </div>
   </div>
 </div>
-<!-- carousel -->
-<app-carousel [images]="images"
-  [autoSlide]="true"
-></app-carousel>
 <!-- features -->
 <div class="container-fluid py-4 bg-dark text-bg-dark px-4" id="features" >
   <div class="container">
@@ -120,8 +130,9 @@
               <div class="feature-icon d-inline-flex align-items-center justify-content-center  fs-2 mb-4">
                   <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"/></svg>
               </div>
-              <h3 class="fs-2">Manufactura y Materiales</h3>
-              <p>Nuestro proceso de confección se especializa en los detalles y terminados de cada prenda, usamos materiales de excelente calidad, flexibles y duraderos.</p>
+              <h3 class="fs-2">Manufactura de Calidad</h3>
+              <p>Nuestro proceso de confección se especializa en los detalles y terminados de alta calidad, 
+                empleamos materiales flexibles y duraderos.</p>
           </div>
           <div class="feature col">
               <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-4">
@@ -135,7 +146,7 @@
                   <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
               </div>
               <h3 class="fs-2">Medida Perfecta</h3>
-              <p>Confeccionamos prendas a tu medida.</p>
+              <p>Confeccionamos prendas a tu medida, conoce el confort y comodidad de nuestras prendas con entalle perfecto.</p>
           </div>
       </div>
   </div>
@@ -145,58 +156,62 @@
 <!-- prices -->
 <div class="container" id="prices">
     <div class="pricing-header p-1 pb-md-1 text-center mt-4 px-4" >
-      <h1 class="display-4 fw-normal">Pricing</h1>
-      <p class="fs-5 text-muted ms-1 me-1">Select the best plan for your mobile lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <h1 class="display-4 fw-normal">Diseños Exclusivos</h1>
+      <p class="fs-5 text-muted ms-1 me-1">Conoce nuestros diseños esclusivos en nuestras tres líneas de mercado.</p>
     </div>
     <div class="row row-cols-1 row-cols-md-3 text-center p-3 pb-4 pricing-margin ">
         <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm m-1">
                 <div class="card-header py-3">
-                    <h4 class="my-0 fw-normal">Free</h4>
+                    <h4 class="my-0 fw-normal">Hoodies</h4>
                 </div>
                 <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+                    <h1 class="card-title pricing-card-title">$100.000<small class="text-muted fw-light">/mco</small></h1>
                     <ul class="list-unstyled mt-3 mb-4">
-                        <li>1 phone included</li>
-                        <li>2 GB of storage</li>
-                        <li>Email support</li>
-                        <li>Help center access</li>
+                        <li>Buso en algodón perchado Monaco</li>
+                        <li>Capucha con forro afelpado o liso</li>
+                        <li>Mangas y cintura en tela Reed</li>
+                        <li>Cordón en calibre grueso y resistente</li>
+                        <li>Ojal y campana en acero inoxidable</li>
+                        <li>Bolsillo frontal costura - hombro</li>
                     </ul>
-                    <a type="button" class="w-100 btn btn-lg btn-outline-primary" href="#contact">Start free</a>
+                    <a type="button" class="w-100 btn btn-lg btn-outline-primary" href="#contact">Detalles</a>
                 </div>
             </div>
         </div>
         <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm m-1">
                 <div class="card-header py-3">
-                    <h4 class="my-0 fw-normal">Pro</h4>
+                    <h4 class="my-0 fw-normal">Raglan 3x4</h4>
                 </div>
                 <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$10<small class="text-muted fw-light">/mo</small></h1>
+                    <h1 class="card-title pricing-card-title">$70.000<small class="text-muted fw-light">/mco</small></h1>
                     <ul class="list-unstyled mt-3 mb-4">
-                        <li>2 phones included</li>
-                        <li>10 GB of storage</li>
-                        <li>Priority email support</li>
-                        <li>Help center access</li>
+                      <li>Camibuso en tela Circuito</li>
+                      <li>Colores customizables</li>
+                      <li>Cuello en tela Reed</li>
+                      <li>Manga larga, manga 3x4 o manga corta</li>
+                      <li>Modelo femenino con cuello normal o cuello bandeja</li>
                     </ul>
-                    <a type="button" class="w-100 btn btn-lg btn-primary" href="#contact">Contact us</a>
+                    <a type="button" class="w-100 btn btn-lg btn-primary" href="#contact">Detalles</a>
                 </div>
             </div>
         </div>
         <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm m-1 border-primary">
                 <div class="card-header py-3 text-bg-primary border-primary">
-                    <h4 class="my-0 fw-normal">Enterprise</h4>
+                    <h4 class="my-0 fw-normal">Estampados</h4>
                 </div>
                 <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$49<small class="text-muted fw-light">/mo</small></h1>
+                    <h1 class="card-title pricing-card-title">$120.000<small class="text-muted fw-light">/mco</small></h1>
                     <ul class="list-unstyled mt-3 mb-4">
-                        <li>5 users included</li>
-                        <li>15 GB of storage</li>
-                        <li>Phone and email support</li>
-                        <li>Help center access</li>
+                        <li>Empleamos técnica de Serigrafía</li>
+                        <li>Excelente calidad y duración</li>
+                        <li>Diseños preestablecidos y perzonalizados</li>
+                        <li>Recibe muestra digital previa de tu diseño con tu cotización</li>
+                        
                     </ul>
-                    <a type="button" class="w-100 btn btn-lg btn-primary" href="#contact">Contact us</a>
+                    <a type="button" class="w-100 btn btn-lg btn-primary" href="#contact">Detalles</a>
                 </div>
             </div>
         </div>
@@ -238,9 +253,5 @@
     </div>
   </div>
 </div>
-</div>
-<!-- banner 3 -->
-<div class="container-fluid m-0 p-0 img-banner">
-  <img class="m-0 p-0" src="../../assets/img/psp-hero-banner-homepage-getsupport.image.large_2x.jpg" alt="">
 </div>
 <app-footer></app-footer>
