@@ -14,7 +14,7 @@ export class ShopService {
       id: 1,
       price: 100000,
       identifier: 'Hoodie Azul Marino Mujer',
-      img: '../../assets/img/1.png',
+      img: '../../assets/img/var/1.png',
       qty: 1,
     },
     {
