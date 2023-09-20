@@ -10,7 +10,7 @@
       <div id="empty-item" class="d-flex justify-content-center align-items-center">
         <div class="d-flex align-items-center justify-content-start p-2 flex-column">
           <h2 class="mb-3 mt-1">Agrega productos a tu pedido!</h2>
-          <button class="btn btn-primary fs-4 end-buy" routerLink="/shop">Ir a Tienda</button>
+          <button class="btn btn-primary fs-4 end-buy" routerLink="/shop">Ir a eShop</button>
         </div>
       </div>
     </div>
@@ -59,17 +59,17 @@
 
         <!-- pay seña -->
         <div class="justify-content-center flex-column align-items-center" id="pago-sena" *ngIf="!sendContainer">
-          <button type="submit" class="btn btn-primary mt-2 p-3 fw-bold shadow-lg fs-3 w-100" id="pagar-sena">Realizar tu pedido por $ {{ dataCart.discount}} pesos</button>
-          <p class="text-muted pt-3 fw-lighter">* Te contactamos en las próximas 24 horas para gestionar tu pago y despacho.</p>
+          <button type="submit" class="btn btn-primary mt-2 p-3 fw-bold shadow-lg fs-3 w-100" id="pagar-sena">Realizar tu pedido por $ {{ dataCart.total}} pesos</button> <!--dataCart.discount-->
+          <p class="text-muted pt-3 fw-lighter">* Te contactaremos en las próximas 24 horas para gestionar tu pago y despacho.</p>
         </div>
       </form>
     
       <!-- Pago exitoso -->
       <div class="w-100 m-0 p-5 d-flex justify-content-center align-items-center flex-column" id="pago-exitoso" *ngIf="sendContainer">
         <h2 class="text-center fs-1 fw-bold pt-4">🎉 Felicitaciones, tu pedido ha sido registrado con exito! 🎊</h2>
-        <p class="fs-5 text-center pb-4">Te contactamos en las próximas 24 horas para gestionar tu pago y despacho.
+        <p class="fs-5 text-center pb-4">Te contactaremos en las próximas 24 horas para gestionar tu pago y despacho.
         <br>Muchas gracias por elegirnos.</p>
-        <button type="button" class="btn btn-primary mt-2 p-3 fw-bold shadow-lg fs-4" routerLink="/shop">Regresar a la tienda</button>
+        <button type="button" class="btn btn-primary mt-2 p-3 fw-bold shadow-lg fs-4" routerLink="/shop">Regresar a eShop</button>
       </div>
 
     </div>
