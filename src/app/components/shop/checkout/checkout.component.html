@@ -1,6 +1,6 @@
 <div class="checkout-container">
 <div class="bg-dark text-white container-fluid checkout-title">
-    <h2 class="container pt-4 pb-4" >Your Cart</h2>
+    <h2 class="container pt-4 pb-4" >Tu Pedido</h2>
 </div>
 
 <!-- empty item -->
@@ -9,8 +9,8 @@
     <div class="pt-2 pb-3 border-bottom container">
       <div id="empty-item" class="d-flex justify-content-center align-items-center">
         <div class="d-flex align-items-center justify-content-start p-2 flex-column">
-          <h2 class="mb-3 mt-1">Add items in your cart!</h2>
-          <button class="btn btn-primary fs-4 end-buy" routerLink="/shop">Go shop</button>
+          <h2 class="mb-3 mt-1">Agrega productos a tu pedido!</h2>
+          <button class="btn btn-primary fs-4 end-buy" routerLink="/shop">Ir a Tienda</button>
         </div>
       </div>
     </div>
@@ -27,49 +27,49 @@
         <h2>Total</h2>
         <h2>$ <span id="total-cart">{{dataCart.total}}</span></h2>
       </div>
-      <p class="text-muted ms-2 fw-lighter border-bottom pb-3" id="retiros-local">* Local withdrawals only</p>
+      <p class="text-muted ms-2 fw-lighter border-bottom pb-3" id="retiros-local">* El valor total no incluye costos de envío.</p>
       <!-- final price -->
       <div class="text-center container mt-4" id="precio-final" *ngIf="!sendContainer">
-        <p class="fs-1 fw-bold">Final price $ {{dataCart.total}}</p>
-        <p class="fw-bold fs-3 pb-3">Leave us your information and make the payment!</p>
+        <p class="fs-1 fw-bold">Valor total de tu pedido: $ {{dataCart.total}}</p>
+        <p class="fw-bold fs-3 pb-3">Ingresa tus datos para enviarte tu orden de pedido.</p>
       </div>
     
       <!-- form -->
       <form id="form" class="justify-content-between align-items-center flex-column container-fluid contact-form" (submit)="sendEmail($event)" *ngIf="!sendContainer">
         <div class="row">
           <div class="col mb-3 col-md-6 col-12">
-            <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="name" name="name" placeholder="Your name..." required>
+            <label for="name" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Tu nombre" required>
           </div>
           <div class="col mb-3 col-md-6 col-12">
-            <label for="surname" class="form-label">Surname</label>
-            <input type="text" class="form-control" id="surname" name="surname" placeholder="Your surname..." required>
+            <label for="surname" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="surname" name="surname" placeholder="Tu apellido" required>
           </div>
         </div>
         <div class="row">
           <div class="col mb-3 col-md-6 col-12">
-            <label for="phone" class="form-label">Phone number</label>
-            <input type="number" class="form-control" id="phone" name="phone" placeholder="Your phone number...">
+            <label for="phone" class="form-label">Número de Celular</label>
+            <input type="number" class="form-control" id="phone" name="phone" placeholder="Tu número de celular">
           </div>
           <div class="col mb-3 col-md-6 col-12">
             <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="Your email..." required>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Your correo" required>
           </div>
         </div>
 
         <!-- pay seña -->
         <div class="justify-content-center flex-column align-items-center" id="pago-sena" *ngIf="!sendContainer">
-          <button type="submit" class="btn btn-primary mt-2 p-3 fw-bold shadow-lg fs-3 w-100" id="pagar-sena">Pay deposit of $ {{ dataCart.discount}} dollars</button>
-          <p class="text-muted pt-3 fw-lighter">* Deposit based on 10% of the buy</p>
+          <button type="submit" class="btn btn-primary mt-2 p-3 fw-bold shadow-lg fs-3 w-100" id="pagar-sena">Realizar tu pedido por $ {{ dataCart.discount}} pesos</button>
+          <p class="text-muted pt-3 fw-lighter">* Te contactamos en las próximas 24 horas para gestionar tu pago y despacho.</p>
         </div>
       </form>
     
       <!-- Pago exitoso -->
       <div class="w-100 m-0 p-5 d-flex justify-content-center align-items-center flex-column" id="pago-exitoso" *ngIf="sendContainer">
-        <h2 class="text-center fs-1 fw-bold pt-4">🎉 Congratulations Sign Success! 🎊</h2>
-        <p class="fs-5 text-center pb-4">Your order will be ready for you to pick up at our store within 24 hours.
-        <br>You only have to attend with your ID and the pending money to finalize the payment.</p>
-        <button type="button" class="btn btn-primary mt-2 p-3 fw-bold shadow-lg fs-4" routerLink="/shop">Go back shop</button>
+        <h2 class="text-center fs-1 fw-bold pt-4">🎉 Felicitaciones, tu pedido ha sido registrado con exito! 🎊</h2>
+        <p class="fs-5 text-center pb-4">Te contactamos en las próximas 24 horas para gestionar tu pago y despacho.
+        <br>Muchas gracias por elegirnos.</p>
+        <button type="button" class="btn btn-primary mt-2 p-3 fw-bold shadow-lg fs-4" routerLink="/shop">Regresar a la tienda</button>
       </div>
 
     </div>
