@@ -9,7 +9,7 @@
                 <p class="card-text">{{product?.description}}</p>
             </div>
             <div class="d-flex justify-content-between align-items-center buttons-details">
-                <span class="fs-4 fw-bold">$ {{product?.price}}</span>
+                <span class="fs-4 fw-bold">$ {{product?.price | currency : 'USD' : 'symbol' : '1.0-0'}}</span>
                 <button class="btn btn-secondary fs-6" routerLink="/shop">Regresar</button>
             </div>
         </div>
