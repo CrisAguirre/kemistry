@@ -9,6 +9,9 @@ img{
 iframe{
     border-radius: 8px;
 }
+.foot-balance{
+    text-wrap: balance!important;
+}
 .hero{
     margin-top: 85px !important;
 }
