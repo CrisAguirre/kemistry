@@ -36,7 +36,7 @@
     <ng-container *ngIf="{total: total$ | async} as dataCart">
         <div class="container container-fluid d-flex justify-content-center align-items-center flex-column end-buy-container" *ngIf="dataCart.total !== 0">
             <h2>Tu compra total es por: {{dataCart.total | currency : 'USD' : 'symbol' : '1.0-0'}}</h2>
-            <p class="fw-lighter mt-2 text-center">Ir a tu pedido!</p>
+            <!--<p class="fw-lighter mt-2 text-center">Ir a tu pedido!</p>-->
             <button class="btn btn-primary fs-2 end-buy" routerLink="/shop/checkout">Finalizar pedido</button>
         </div>
         
