@@ -76,7 +76,7 @@ iframe{
     position: fixed;
     top: 1rem;
     right: 1rem;
-    background-color: #0084ff; 
+    background-color: #0D6EFD; 
     border: 0;
     color: white;
     cursor: pointer;
@@ -115,7 +115,7 @@ nav.principal a {
 }
 nav.principal a:hover {
     text-decoration: none;
-    background-color: #0300c5;
+    background-color: #0D6EFD;
 }
 
 /*Media querys*/
