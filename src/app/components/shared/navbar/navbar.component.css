@@ -1,4 +1,28 @@
 /*Menu flotante moviles home*/
+.botonWS {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 3rem;    
+    height: 3rem;
+    position: absolute;
+    top: 52rem;
+    right: 2rem;
+    background-color: #32D951; 
+    border: 0;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+}
+/* Se le quita el borde azul cuando se pulsa en Chrome */
+.botonWS:focus {
+    outline: none;
+}
+/* Cuando es pulsado, se quita el translate que lo ocultaba */
+.botonWS:focus + .principal {
+    transform: translateX(0rem);
+}
+
 .botonMenu {
     display: flex;
     justify-content: center;

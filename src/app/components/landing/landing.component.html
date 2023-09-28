@@ -64,9 +64,17 @@
 <!-- Barra de Menu -->
 <nav class="navbar navbar-expand-lg bg-dark fixed-top">
     <div class="container-fluid container">
+      <div id="navbarSupportedContent">
+        <a href="https://wa.me/3128033742">
+          <button type="button" class="botonWS">
+            <img src="../../assets/img/var/ws.png" alt="Soporte de Ventas">
+          </button>
+        </a>       
+      </div>
       <div class="container col-3 col-sm-3 col-lg-2 center-important">
         <img onClick="window.location.reload();" src="../../assets/img/var/logo2.png" loading="lazy">
       </div>
+      <!--Barra de menu para escritorio y wide-->
       <div class="collapse navbar-collapse collapse-nomovil" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
@@ -97,6 +105,7 @@
       <button class="botonMenu collapse-movil">
         <i class="fa fa-bars"></i>
       </button>
+      <!--Barra de menu para móviles-->
       <nav class="bg-dark principal collapse-movil">
         <form class="d-flex">
           <a routerLink="./shop">
