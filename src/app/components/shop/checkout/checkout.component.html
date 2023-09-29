@@ -39,24 +39,19 @@
         <div class="row">
           <div class="col mb-3 col-md-6 col-12">
             <label for="name" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="name" name="name" placeholder="Tu nombre" required>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Tu nombre completo" required>
           </div>
           <div class="col mb-3 col-md-6 col-12">
-            <label for="surname" class="form-label">Apellido</label>
-            <input type="text" class="form-control" id="surname" name="surname" placeholder="Tu apellido" required>
+            <label for="phone" class="form-label">Celular</label>
+            <input type="number" class="form-control" id="phone" name="phone" placeholder="Tu número de celular">
           </div>
         </div>
         <div class="row">
           <div class="col mb-3 col-md-6 col-12">
-            <label for="phone" class="form-label">Número de Celular</label>
-            <input type="number" class="form-control" id="phone" name="phone" placeholder="Tu número de celular">
-          </div>
-          <div class="col mb-3 col-md-6 col-12">
             <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="Your correo" required>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Tu correo electrónico" required>
           </div>
         </div>
-
         <!-- pay seña -->
         <div class="justify-content-center flex-column align-items-center" id="pago-sena" *ngIf="!sendContainer">
           <button type="submit" class="btn btn-primary mt-2 p-3 fw-bold shadow-lg fs-3 w-100" id="pagar-sena">Realizar tu pedido por {{ dataCart.total | currency : 'USD' : 'symbol' : '1.0-0'}} pesos</button> <!--dataCart.discount-->
