@@ -143,16 +143,8 @@ nav.principal a:hover {
 
 /*Media querys*/
 
-@media (min-width: 1000px){
-    .collapse-nomovil{
-        display: none;
-    }
-    .collapse-movil{
-        display: none;
-    }
-}
-
-@media (max-width: 900px){
+/*Tab + Movil*/
+@media (max-width: 1000px){
     .collapse-movil{
         display: initial;
     }
@@ -180,5 +172,93 @@ nav.principal a:hover {
     }
     .container-footer{
         padding: 0 2em 0 2em;
+    }
+    .botonWS {
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        width: 3rem;    
+        height: 3rem;
+        position: absolute;
+        top: 45rem;
+        right: 2rem;
+        background-color: #32D951; 
+        border: 0;
+        color: white;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+}
+
+/*Desk*/
+@media (min-width: 1000px) and (max-width: 1919px){
+    .collapse-nomovil{
+        display: none;
+    }
+    .collapse-movil{
+        display: none;
+    }
+    .botonWS {
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        width: 3rem;    
+        height: 3rem;
+        position: absolute;
+        top: 55rem;
+        right: 5rem;
+        background-color: #32D951; 
+        border: 0;
+        color: white;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+}
+/*Full HD & >*/
+@media (min-width: 1920px) and (max-width: 3000px){
+    .collapse-nomovil{
+        display: none;
+    }
+    .collapse-movil{
+        display: none;
+    }
+    .botonWS {
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        width: 3rem;    
+        height: 3rem;
+        position: absolute;
+        top: 80rem;
+        right: 5rem;
+        background-color: #32D951; 
+        border: 0;
+        color: white;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+}
+/*Wide - 4k*/
+@media (min-width: 3000px) and (max-width: 4000px){
+    .collapse-nomovil{
+        display: none;
+    }
+    .collapse-movil{
+        display: none;
+    }
+    .botonWS {
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        width: 3rem;    
+        height: 3rem;
+        position: absolute;
+        top: 120rem;
+        right: 10rem;
+        background-color: #32D951; 
+        border: 0;
+        color: white;
+        cursor: pointer;
+        border-radius: 50%;
     }
 }
