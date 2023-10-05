@@ -13,6 +13,11 @@ interface carouselImage{
 export class CarouselComponent implements OnInit {
 
   @Input() images: carouselImage[] = []
+  @Input() images2: carouselImage[] = []
+  @Input() images3: carouselImage[] = []
+  @Input() images4: carouselImage[] = []
+  @Input() images5: carouselImage[] = []
+
   @Input() indicators = true;
   @Input() controls = true;
   @Input() autoSlide = false;

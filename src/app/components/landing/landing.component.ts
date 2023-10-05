@@ -6,6 +6,29 @@ import { Component } from '@angular/core';
   styleUrls: ['./landing.component.css']
 })
 export class LandingComponent {
+  images2 = [
+    {
+      imageSrc:
+        '../../assets/img/slide2/1.jpg',
+      imageAlt: 'kemistry1',
+    },
+    {
+      imageSrc:
+        '../../assets/img/slide2/2.jpg',
+      imageAlt: 'kemistry2',
+    },
+    {
+      imageSrc:
+        '../../assets/img/slide2/3.jpg',
+      imageAlt: 'kemistry3',
+    },
+    {
+      imageSrc:
+        '../../assets/img/slide2/4.jpg',
+      imageAlt: 'kemistry4',
+    },
+  ]
+
   images = [
     {
       imageSrc:
