@@ -72,8 +72,8 @@
         </a>       
       </div>
       <div class="container col-3 col-sm-3 col-lg-2 center-important">
-        <a routerLink="./">
-          <img src="../../assets/img/var/logo.png" loading="lazy">
+        <a routerLink="/">
+            <img src="../../assets/img/var/logo.png" loading="lazy">
         </a>
       </div>
       <!--Barra de menu para escritorio y wide-->
@@ -113,19 +113,19 @@
         </form>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="./hoodies">Hoodies</a>
+            <a class="nav-link active text-light" aria-current="page" routerLink="#features">Hoodies</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="./raglan">Camisas Raglan</a>
+            <a class="nav-link active text-light" aria-current="page" routerLink="#prices">Camisas Raglan</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="./camisetas">Camisetas</a>
+            <a class="nav-link active text-light" aria-current="page" routerLink="#prices">Camisetas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="./estampados">Estampados</a>
+            <a class="nav-link active text-light" aria-current="page" routerLink="#prices">Estampados</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="./kemistry">Nosotros</a>
+            <a class="nav-link active text-light" aria-current="page" routerLink="#contact">Nosotros</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active text-light" aria-current="page" routerLink="#contact">Contacto</a>
@@ -136,182 +136,5 @@
 </nav>
 <!-- Carrusel -->
 <app-carousel [images]="images" [autoSlide]="true"></app-carousel>
-<!-- Banner1 + Texto -->
-<div class="container">
-   <div class="container-fluid row flex-lg-row-reverse align-items-center justify-content-center g-3 mb-4 mt-4 me-0 pe-0 hero px-4">
-    <div class="container col-10 col-sm-8 col-lg-6 center-important">
-      <img src="../../assets/img/var/0.jpg" loading="lazy">
-    </div>
-    <div class="col-lg-6 center-important p-4">
-      <div class="col m-2">
-            <div class="container center-important">
-              <img src="../../assets/img/var/logo-ban.png" loading="lazy">
-            </div>         
-      </div>
-      <p class="lead">Creamos prendas de vestir de alta calidad, con acabados precisos y materiales duraderos, conoce nuestros diseños exclusivos.</p>
-      <div class="d-grid pb-5 gap-2 d-md-flex justify-content-md-start">
-        <a type="button" class="btn btn-outline-secondary btn-lg px-4" href="#prices">Kemistry</a>
-        <a type="button" class="btn btn-primary btn-lg px-4 me-md-2" href="./shop">eShop</a>
-      </div>
-    </div>
-  </div>
-</div>
-<app-carousel2 [images]="images2" [autoSlide]="true"></app-carousel2>
-<!-- Banner 2 -->
-<div class="container-fluid m-0 p-0 img-banner">
-  <img class="m-0 p-0" src="../../assets/img/var/ban-1.jpg" alt="">
-</div>
-<!-- Banner 3
-<img class="img-banner container-fluid m-0 p-0" src="../../assets/img/var/ban-2.jpg">
-<!-- Productos y Precios -->
-<div class="container" id="prices">
-    <div class="pricing-header p-1 pb-md-1 text-center mt-4 px-4" >
-      <h1 class="display-4 fw-normal">Diseños Exclusivos</h1>
-      <p class="fs-5 text-muted ms-1 me-1">¡Descubre nuestra línea de ropa que incluye busos hoodies, camisas raglan, camisetas y estampados originales.</p>
-    </div>
-    <div class="row row-cols-1 row-cols-md-3 text-center p-3 pb-4 pricing-margin ">
-        <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm m-1">
-                <div class="card-header py-3 text-bg-primary border-primary">
-                    <h4 class="my-0 fw-normal">Hoodies</h4>
-                </div>
-                <div class="card-body">
-                  <div class="col m-2">
-                    <div class="container center-important">
-                      <img src="../../assets/img/store/5.png" loading="lazy">
-                    </div>  
-                  </div>
-                    <h1 class="card-title pricing-card-title">$100.000<small class="text-muted fw-light">/mco</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>Buso en algodón perchado Monaco</li>
-                        <li>Capucha con forro afelpado o liso</li>
-                        <li>Mangas y cintura en tela Reed</li>
-                        <li>Cordón de buen calibre y resistente</li>
-                        <li>Ojal y campana en acero inoxidable</li>
-                        <li>Costura frontal bolsillo - hombro</li>
-                        <li></li>
-                    </ul>
-                    <a type="button" class="w-100 btn btn-lg btn-outline-primary" href="#contact">Detalles</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm m-1">
-                <div class="card-header py-3 text-bg-primary border-primary">
-                    <h4 class="my-0 fw-normal">Camisas Raglan</h4>
-                </div>
-                <div class="card-body">
-                  <div class="col m-2">
-                    <div class="container center-important">
-                      <img src="../../assets/img/store/22.png" loading="lazy">
-                    </div>  
-                  </div>
-                    <h1 class="card-title pricing-card-title">$70.000<small class="text-muted fw-light">/mco</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                      <li>Camisa en tela Circuito</li>
-                      <li>Colores customizables</li>
-                      <li>Cuello en tela Reed</li>
-                      <li>Manga larga - 3x4 - corta</li>
-                      <li>Cuello normal - bandeja para dama</li>
-                      <li>Gran detalle en terminados</li>
-                      <li></li>
-                    </ul>
-                    <a type="button" class="w-100 btn btn-lg btn-outline-primary" href="#contact">Detalles</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm m-1 border-primary">
-                <div class="card-header py-3 text-bg-primary border-primary">
-                    <h4 class="my-0 fw-normal">Camisetas</h4>
-                </div>
-                <div class="card-body">
-                  <div class="col m-2">
-                    <div class="container center-important">
-                      <img src="../../assets/img/store/299.png" loading="lazy">
-                    </div>  
-                  </div>
-                    <h1 class="card-title pricing-card-title">$35.000<small class="text-muted fw-light">/mco</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                      <li>Camiseta básica en algodón circuito</li>
-                      <li>Tela suave y resistente</li>
-                      <li>Excelente detalle en acabados y terminados</li>
-                      <li>Bajo grado de elasticidad</li>
-                      <li>Amplia variedad en colores</li>
-                      <li>Estampados perzonalizados disponibles</li>
-                    </ul>
-                    <a type="button" class="w-100 btn btn-lg btn-outline-primary" href="#contact">Detalles</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Características -->
-<div class="container-fluid py-4 bg-dark text-bg-dark px-4" id="features" >
-  <div class="container">
-      <h2 class="border-bottom pb-2 pt-4">Características</h2>
-      <div class="row g-4 py-4 row-cols-1 row-cols-lg-3">
-          <div class="feature col">
-              <div class="feature-icon d-inline-flex align-items-center justify-content-center  fs-2 mb-4">
-                  <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"/></svg>
-              </div>
-              <h3 class="fs-2">Manufactura de Calidad</h3>
-              <p>Nuestro proceso de confección se especializa en los detalles y terminados de alta calidad, 
-                empleamos materiales flexibles y duraderos.</p>
-          </div>
-          <div class="feature col">
-              <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-4">
-                  <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
-              </div>
-              <h3 class="fs-2">Medida Perfecta</h3>
-              <p>Confeccionamos prendas a tu medida, conoce el confort y comodidad de nuestras prendas con entalle perfecto.</p>
-          </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-4">
-                <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
-            </div>
-            <h3 class="fs-2">Atención Perzonalizada</h3>
-            <p>Recibe acompañamiento en todo el proceso de compra y post-entrega, nuestra garantía es tu total satisfacción.</p>
-        </div>
-      </div>
-  </div>
-</div>
-<!-- Banner 4 -->
-<img class="img-banner container-fluid m-0 p-0" src="../../assets/img/var/ban-3.jpg">
-<!-- Contacto -->
-<div class="container-fluid p-0 m-0 bg-dark pb-1 px-4">
-<div class="container pt-0 pb-5  contact-container text-bg-dark " id="contact">
-  <h2 class="pb-2 pt-5 border-bottom mb-4">Contacto</h2>
-  <div class="row">
-    <div class="col-sm-12 col-lg-6">
-      <div>
-        <form class="mb-2">
-          <div class="input-group mb-3">
-            <span class="input-group-text w-25">Nombre</span>
-            <input type="name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-          </div>
-          <div class="input-group mb-3 ">
-            <span class="input-group-text w-25">Celular</span>
-            <input type="surname" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-          </div>
-          <div class="input-group mb-3">
-            <span class="input-group-text w-25">Correo</span>
-            <input type="email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-          </div>
-          <div class="input-group pb-3">
-            <span class="input-group-text w-25">Mensaje</span>
-            <textarea class="form-control" aria-label="With textarea" required></textarea>
-          </div>
-          <input class="btn btn-primary w-100" type="submit" value="Enviar">
-      </form>                                
-      </div>
-    </div>
-    <div class="col-sm-12 col-lg-6 mb-2">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d863.1381440157866!2d-77.28886991513608!3d1.218596432236283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e2ed3bfd1bdb039%3A0x261e51104ce546ae!2sClinica%20de%20Ropa%20Kompostura!5e0!3m2!1ses-419!2sco!4v1692656838404!5m2!1ses-419!2sco" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      
-    </div>
-  </div>
-</div>
-</div>
 <!-- Footer -->
 <app-footer></app-footer>

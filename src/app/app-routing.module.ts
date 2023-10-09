@@ -5,9 +5,19 @@ import { DetailsComponent } from './components/shop/details/details.component';
 import { LandingComponent } from './components/landing/landing.component';
 import { ProductsComponent } from './components/shop/products/products.component';
 import { ShopComponent } from './components/shop/shop.component';
+import { KemistryComponent } from './kemistry/kemistry.component';
+import { HoodiesComponent } from './hoodies/hoodies.component';
+import { RaglanComponent } from './raglan/raglan.component';
+import { CamisetasComponent } from './camisetas/camisetas.component';
+import { EstampadosComponent } from './estampados/estampados.component';
 
 const routes: Routes = [
   { path: '', component: LandingComponent},
+  { path: 'kemistry', component: KemistryComponent},
+  { path: 'hoodies', component: HoodiesComponent},
+  { path: 'raglan', component: RaglanComponent},
+  { path: 'camisetas', component: CamisetasComponent},
+  { path: 'estampados', component: EstampadosComponent},
   { path: 'shop', component: ShopComponent,
   children: [
     { path: '', component: ProductsComponent },
@@ -15,6 +25,7 @@ const routes: Routes = [
     { path: 'details/:category/:id', component: DetailsComponent },
   ]
 },
+
   { path: '**', redirectTo: '', pathMatch: 'full' },
 ];
 

@@ -18,6 +18,11 @@ import { CommonModule } from '@angular/common';
 import { CheckoutCardComponent } from './components/shop/checkout/checkout-card/checkout-card.component';
 import { CarouselModule } from './carousel/carousel.module';
 import { Carousel2Module } from './carousel2/carousel2.module';
+import { KemistryComponent } from './kemistry/kemistry.component';
+import { HoodiesComponent } from './hoodies/hoodies.component';
+import { RaglanComponent } from './raglan/raglan.component';
+import { CamisetasComponent } from './camisetas/camisetas.component';
+import { EstampadosComponent } from './estampados/estampados.component';
 
 
 
@@ -34,6 +39,11 @@ import { Carousel2Module } from './carousel2/carousel2.module';
     ProductsContainerComponent,
     ProductsCardComponent,
     CheckoutCardComponent,
+    KemistryComponent,
+    HoodiesComponent,
+    RaglanComponent,
+    CamisetasComponent,
+    EstampadosComponent,
     
   ],
   imports: [
