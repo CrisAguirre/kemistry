@@ -17,6 +17,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { CheckoutCardComponent } from './components/shop/checkout/checkout-card/checkout-card.component';
 import { CarouselModule } from './carousel/carousel.module';
+import { Carousel2Module } from './carousel2/carousel2.module';
+
+
 
 @NgModule({
   declarations: [
@@ -39,7 +42,10 @@ import { CarouselModule } from './carousel/carousel.module';
     NgbModule,
     HttpClientModule,
     CommonModule,
-    CarouselModule
+    CarouselModule,
+    Carousel2Module
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
