@@ -70,6 +70,11 @@ export class LandingComponent {
         '../../assets/img/slide/8.jpg',
       imageAlt: 'kemistry8',
     },
+    {
+      imageSrc:
+        '../../assets/img/slide/9.jpg',
+      imageAlt: 'kemistry9',
+    },
   ]
 
 }

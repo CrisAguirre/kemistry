@@ -72,7 +72,7 @@
         </a>       
       </div>
       <div class="container col-3 col-sm-3 col-lg-2 center-important">
-        <a routerLink="./">
+        <a routerLink="/">
           <img src="../../assets/img/var/logo.png" loading="lazy">
         </a>
       </div>
@@ -80,19 +80,19 @@
       <div class="collapse navbar-collapse collapse-nomovil" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="./hoodies">Hoodies</a>
+            <a class="nav-link active text-light" aria-current="page" routerLink="/hoodies">Hoodies</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="./raglan">Camisas Raglan</a>
+            <a class="nav-link active text-light" aria-current="page" routerLink="/raglan">Camisas Raglan</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="./camisetas">Camisetas</a>
+            <a class="nav-link active text-light" aria-current="page" routerLink="/camisetas">Camisetas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="./estampados">Estampados</a>
+            <a class="nav-link active text-light" aria-current="page" routerLink="/estampados">Estampados</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="./kemistry">Nosotros</a>
+            <a class="nav-link active text-light" aria-current="page" routerLink="/kemistry">Nosotros</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -113,19 +113,19 @@
         </form>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="./hoodies">Hoodies</a>
+            <a class="nav-link active text-light" aria-current="page" routerLink="/hoodies">Hoodies</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="./raglan">Camisas Raglan</a>
+            <a class="nav-link active text-light" aria-current="page" routerLink="/raglan">Camisas Raglan</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="./camisetas">Camisetas</a>
+            <a class="nav-link active text-light" aria-current="page" routerLink="/camisetas">Camisetas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="./estampados">Estampados</a>
+            <a class="nav-link active text-light" aria-current="page" routerLink="/estampados">Estampados</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="./kemistry">Nosotros</a>
+            <a class="nav-link active text-light" aria-current="page" routerLink="/kemistry">Nosotros</a>
           </li>
         </ul>
       </nav>
@@ -147,7 +147,7 @@
       </div>
       <p class="lead">Creamos prendas de vestir de alta calidad, con acabados precisos y materiales duraderos, conoce nuestros diseños exclusivos.</p>
       <div class="d-grid pb-5 gap-2 d-md-flex justify-content-md-start">
-        <a type="button" class="btn btn-outline-secondary btn-lg px-4" href="#prices">Kemistry</a>
+        <a type="button" class="btn btn-outline-secondary btn-lg px-4" routerLink="/kemistry">Kemistry</a>
         <a type="button" class="btn btn-primary btn-lg px-4 me-md-2" href="./shop">eShop</a>
       </div>
     </div>
@@ -155,9 +155,7 @@
 </div>
 <!-- Carrusel -->
 <app-carousel2 [images]="images2" [autoSlide]="true"></app-carousel2>
-<!-- Banner 3
-<img class="img-banner container-fluid m-0 p-0" src="../../assets/img/var/ban-2.jpg">
-Productos y Precios -->
+<!--Productos y Precios-->
 <div class="container" id="prices">
     <div class="pricing-header p-1 pb-md-1 text-center mt-4 px-4" >
       <h1 class="display-4 fw-normal">Diseños Exclusivos</h1>
@@ -185,7 +183,7 @@ Productos y Precios -->
                         <li>Costura frontal bolsillo - hombro</li>
                         <li></li>
                     </ul>
-                    <a type="button" class="w-100 btn btn-lg btn-outline-primary" href="#contact">Detalles</a>
+                    <a type="button" class="w-100 btn btn-lg btn-outline-primary" routerLink="/hoodies">Detalles</a>
                 </div>
             </div>
         </div>
@@ -210,7 +208,7 @@ Productos y Precios -->
                       <li>Gran detalle en terminados</li>
                       <li></li>
                     </ul>
-                    <a type="button" class="w-100 btn btn-lg btn-outline-primary" href="#contact">Detalles</a>
+                    <a type="button" class="w-100 btn btn-lg btn-outline-primary" routerLink="/raglan">Detalles</a>
                 </div>
             </div>
         </div>
@@ -234,7 +232,7 @@ Productos y Precios -->
                       <li>Amplia variedad en colores</li>
                       <li>Estampados perzonalizados disponibles</li>
                     </ul>
-                    <a type="button" class="w-100 btn btn-lg btn-outline-primary" href="#contact">Detalles</a>
+                    <a type="button" class="w-100 btn btn-lg btn-outline-primary" routerLink="/camisetas">Detalles</a>
                 </div>
             </div>
         </div>

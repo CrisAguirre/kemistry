@@ -80,19 +80,19 @@
       <div class="collapse navbar-collapse collapse-nomovil" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="./hoodies">Hoodies</a>
+            <a class="nav-link active text-light" aria-current="page" routerLink="/hoodies">Hoodies</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="./raglan">Camisas Raglan</a>
+            <a class="nav-link active text-light" aria-current="page" routerLink="/raglan">Camisas Raglan</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="./camisetas">Camisetas</a>
+            <a class="nav-link active text-light" aria-current="page" routerLink="/camisetas">Camisetas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="./estampados">Estampados</a>
+            <a class="nav-link active text-light" aria-current="page" routerLink="/estampados">Estampados</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="./kemistry">Nosotros</a>
+            <a class="nav-link active text-light" aria-current="page" routerLink="/kemistry">Nosotros</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -112,29 +112,62 @@
           </a>
         </form>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="#features">Hoodies</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="#prices">Camisas Raglan</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="#prices">Camisetas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="#prices">Estampados</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="#contact">Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="#contact">Contacto</a>
-          </li>
+            <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" routerLink="/hoodies">Hoodies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" routerLink="/raglan">Camisas Raglan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" routerLink="/camisetas">Camisetas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" routerLink="/estampados">Estampados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" routerLink="/kemistry">Nosotros</a>
+              </li>
         </ul>
       </nav>
     </div>
 </nav>
+<!-- Banner 3 -->
+<img class="container-fluid mt-3 p-0" src="../../assets/img/hoodies/ban-hoodie-head.jpg">
+<!-- Banner1 + Texto -->
+<div class="container">
+    <div class="container-fluid row flex-lg-row-reverse align-items-center justify-content-center g-3 mb-4 mt-0 me-0 pe-0 hero px-4">
+     <div class="container col-10 col-sm-8 col-lg-6 center-important">
+       <img src="../../assets/img/hoodies/0.jpg" loading="lazy">
+     </div>
+     <div class="col-lg-6 center-important p-4">
+       <!--<div class="col m-2">
+             <div class="container center-important">
+               <img src="../../assets/img/var/logo-ban.png" loading="lazy">
+             </div>         
+       </div>-->
+    <p class="lead">Nuestros busos Hoodies están elaborados con acabados precisos en tela algodón perchado Monaco, de muy buena calidad y durablidad.</p>
+    <p class="lead">Cuentan con capucha con forro afelpado (mujer) o liso (hombre), el borde de mangas y cintura esta hecho en tela Reed, suave y resistente, 
+      cuenta con cordón de buen calibre y terminados de ojal y campana de cordón en acero inoxidable.</p>
+    <p class="lead">Este diseño cuenta con una costura frontal entre el bolsillo y el hombro, diferenciándolo de otros modelos del mercado.</p>
+       <div class="d-grid pb-5 gap-2 d-md-flex justify-content-md-start">
+         <!--<a type="button" class="btn btn-outline-secondary btn-lg px-4" routerLink="/kemistry">Kemistry</a>-->
+         <a type="button" class="btn btn-primary btn-lg px-4 me-md-2" href="./shop">eShop</a>
+       </div>
+     </div>
+   </div>
+ </div>
 <!-- Carrusel -->
-<app-carousel [images]="images" [autoSlide]="true"></app-carousel>
+<app-carousel [images]="images3" [autoSlide]="true"></app-carousel>
+<!-- Boton ir a eshop -->
+<div class="container">
+  <div class="pt-2 pb-3 border-bottom container">
+    <div id="empty-item" class="d-flex justify-content-center align-items-center">
+      <div class="d-flex align-items-center justify-content-start p-2 flex-column">
+        <h2 class="mb-3 mt-1">Agrega productos a tu pedido!</h2>
+        <button class="btn btn-primary fs-4 end-buy" routerLink="/shop">Ir a eShop</button>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Footer -->
 <app-footer></app-footer>
