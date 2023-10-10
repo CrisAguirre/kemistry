@@ -43,4 +43,49 @@ export class HoodiesComponent {
       imageAlt: 'kemistry7',
     }
   ]
+  images4 = [
+    {
+      imageSrc:
+        '../../assets/img/store/5.png',
+      imageAlt: 'kemistry1',
+    },
+    {
+      imageSrc:
+        '../../assets/img/store/6.png',
+      imageAlt: 'kemistry1',
+    },
+    {
+      imageSrc:
+        '../../assets/img/store/7.png',
+      imageAlt: 'kemistry1',
+    },
+    {
+      imageSrc:
+        '../../assets/img/store/8.png',
+      imageAlt: 'kemistry1',
+    }
+  ]
+    images5 = [
+      {
+        imageSrc:
+          '../../assets/img/store/1.png',
+        imageAlt: 'kemistry1',
+      },
+      {
+        imageSrc:
+          '../../assets/img/store/2.png',
+        imageAlt: 'kemistry1',
+      },
+      {
+        imageSrc:
+          '../../assets/img/store/3.png',
+        imageAlt: 'kemistry1',
+      },
+      {
+        imageSrc:
+          '../../assets/img/store/4.png',
+        imageAlt: 'kemistry1',
+      },
+    ]
+
 }
