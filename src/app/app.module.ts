@@ -23,6 +23,7 @@ import { HoodiesComponent } from './hoodies/hoodies.component';
 import { RaglanComponent } from './raglan/raglan.component';
 import { CamisetasComponent } from './camisetas/camisetas.component';
 import { EstampadosComponent } from './estampados/estampados.component';
+import { HeadSlideComponent } from './components/shared/head-slide/head-slide.component';
 
 
 
@@ -44,6 +45,7 @@ import { EstampadosComponent } from './estampados/estampados.component';
     RaglanComponent,
     CamisetasComponent,
     EstampadosComponent,
+    HeadSlideComponent,
     
   ],
   imports: [
