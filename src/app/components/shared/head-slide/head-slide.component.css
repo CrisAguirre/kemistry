@@ -1,5 +1,13 @@
 .text-container {
-    margin-top: 50pt;
-    /*margin+top+for+movile+devices*/
-    text-align: center;
+    margin-top: 42pt;
+}
+@media (max-width: 1000px){
+  .text-container {
+    margin-top: 30pt;
   }
+}
+@media (min-width: 765px) and (max-width: 1000px){
+  .text-container {
+    margin-top: 36pt;
+  }
+}
