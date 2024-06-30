@@ -78,3 +78,9 @@ nav.principal a:hover {
     text-decoration: none;
     background-color: #0D6EFD;
 }
+@media (min-width: 100px) and (max-width: 1000px){
+    .navbar-expand-lg {
+        flex-wrap: nowrap;
+        /*justify-content: flex-start;*/
+    }
+}
