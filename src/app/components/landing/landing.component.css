@@ -71,10 +71,10 @@ iframe{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 3rem;    
-    height: 3rem;
+    width: 2rem;    
+    height: 2rem;
     position: fixed;
-    top: 1rem;
+    top: 0rem;
     right: 1rem;
     background-color: #0D6EFD; 
     border: 0;
@@ -149,7 +149,7 @@ nav.principal a:hover {
         display: initial;
     }
     .hero{
-        margin-top: 50px !important;
+        margin-top: px !important;
     }
     .hero-2{
         padding-top: 50px;
