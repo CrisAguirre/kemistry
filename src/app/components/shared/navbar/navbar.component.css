@@ -35,8 +35,8 @@ img{
     width: 3rem;    
     height: 3rem;
     position: fixed;
-    top: 0.5rem;
-    right: 0.5rem;
+    top: 1rem;
+    right: 1rem;
     background-color: #0D6EFD; 
     border: 0;
     color: white;
@@ -80,7 +80,13 @@ nav.principal a:hover {
 }
 @media (min-width: 100px) and (max-width: 1000px){
     .navbar-expand-lg {
-        flex-wrap: nowrap;
-        /*justify-content: flex-start;*/
+        flex-wrap: wrap;
+        justify-content: flex-start;
     }
 }
+@media (min-width: 1000px) and (max-width: 2000px){
+    .navbar-expand-lg {
+        flex-wrap:wrap;
+        justify-content: flex-start;
+    }
+} 

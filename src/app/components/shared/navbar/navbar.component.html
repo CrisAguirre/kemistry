@@ -1,6 +1,16 @@
 <nav class="navbar navbar-expand-lg fixed-top nav-shop bg-white">
     <div class="container-fluid container">
-      <div class="container center-important col-3 col-sm-3 col-lg-2">
+      <!--Whatsapp botton-->
+      <div class="container-fluid container">
+        <div id="navbarSupportedContent">
+          <a href="https://wa.me/3128033742">
+            <button type="button" class="botonWS">
+              <img src="../../../../assets/img/var/ws.png" alt="Soporte de Ventas">
+            </button>
+          </a>       
+        </div>
+      </div>
+      <div class="container col-3 col-sm-3 col-lg-2 center-important">
         <a routerLink="/">
           <img src="../../../../assets/img/var/logo-shop-head.png" loading="lazy">
         </a>
@@ -12,16 +22,6 @@
             <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" *ngIf="{quantity: quantity$ | async } as dataCart">
               <ng-container *ngIf="dataCart.quantity !== 0">{{dataCart.quantity}}</ng-container>
             </span>
-          </button>
-        </a>       
-      </div>
-    </div>
-    <!--Whatsapp botton-->
-    <div class="container-fluid container">
-      <div id="navbarSupportedContent">
-        <a href="https://wa.me/3128033742">
-          <button type="button" class="botonWS">
-            <img src="../../../../assets/img/var/ws.png" alt="Soporte de Ventas">
           </button>
         </a>       
       </div>

@@ -71,10 +71,10 @@ iframe{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 2rem;    
-    height: 2rem;
+    width: 3rem;    
+    height: 3rem;
     position: fixed;
-    top: 0rem;
+    top: 4rem;
     right: 1rem;
     background-color: #0D6EFD; 
     border: 0;
