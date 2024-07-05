@@ -55,26 +55,26 @@ export class LandingComponent {
         '../../assets/img/slide/5.jpg',
       imageAlt: 'kemistry5',
     },
-    {
-      imageSrc:
-        '../../assets/img/slide/6.jpg',
-      imageAlt: 'kemistry6',
-    },
-    {
-      imageSrc:
-        '../../assets/img/slide/7.jpg',
-      imageAlt: 'kemistry7',
-    },
-    {
-      imageSrc:
-        '../../assets/img/slide/8.jpg',
-      imageAlt: 'kemistry8',
-    },
-    {
-      imageSrc:
-        '../../assets/img/slide/9.jpg',
-      imageAlt: 'kemistry9',
-    },
+    // {
+    //   imageSrc:
+    //     '../../assets/img/slide/6.jpg',
+    //   imageAlt: 'kemistry6',
+    // },
+    // {
+    //   imageSrc:
+    //     '../../assets/img/slide/7.jpg',
+    //   imageAlt: 'kemistry7',
+    // },
+    // {
+    //   imageSrc:
+    //     '../../assets/img/slide/8.jpg',
+    //   imageAlt: 'kemistry8',
+    // },
+    // {
+    //   imageSrc:
+    //     '../../assets/img/slide/9.jpg',
+    //   imageAlt: 'kemistry9',
+    // },
   ]
 
 }
