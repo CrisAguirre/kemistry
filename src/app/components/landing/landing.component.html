@@ -136,8 +136,161 @@
 <app-head-slide></app-head-slide>
 <!-- Carrusel -->
 <app-carousel [images]="images" [autoSlide]="true"></app-carousel>
-<!-- Banner1 + Texto -->
-<div class="container">
+<div class="b-example-divider"></div>
+<!-- grilla -->
+<div class="album py-5 bg-body-tertiary">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card" style="width: 23rem;">
+          <img src="../../assets/img/var/card1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Estampados</h5>
+            <p class="card-text">Descripción.</p>
+            <a href="#" class="btn btn-primary">Conocer</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 23rem;">
+          <img src="../../assets/img/var/card2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Rock & Metal</h5>
+            <p class="card-text">Descripción.</p>
+            <a href="#" class="btn btn-primary">Conocer</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 23rem;">
+          <img src="../../assets/img/var/card3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Anime</h5>
+            <p class="card-text">Descripción.</p>
+            <a href="#" class="btn btn-primary">Conocer</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 23rem;">
+          <img src="../../assets/img/var/card4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Comics</h5>
+            <p class="card-text">Descripción.</p>
+            <a href="#" class="btn btn-primary">Conocer</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 23rem;">
+          <img src="../../assets/img/var/card5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Videojuegos</h5>
+            <p class="card-text">Descripción.</p>
+            <a href="#" class="btn btn-primary">Conocer</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 23rem;">
+          <img src="../../assets/img/var/card6.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Fantasia</h5>
+            <p class="card-text">Descripción.</p>
+            <a href="#" class="btn btn-primary">Conocer</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Ban1 -->
+<div class="container-fluid m-0 p-0 img-banner">
+  <img class="m-0 p-0" src="../../assets/img/var/ban-1.jpg" alt="">
+</div> 
+<!--Productos y Precios-->
+<div class="b-example-divider"></div>
+<div class="container" id="prices">
+  <div class="pricing-header p-1 pb-md-1 text-center mt-4 px-4" >
+    <h1 class="display-4 fw-normal">Diseños Exclusivos</h1>
+    <p class="fs-5 text-muted ms-1 me-1">¡Descubre nuestra línea de ropa que incluye busos hoodies, camibusos 3x4, camisetas y estampados originales.</p>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 text-center p-3 pb-4 pricing-margin ">
+      <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm m-1">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                  <h4 class="my-0 fw-normal">Hoodies</h4>
+              </div>
+              <div class="card-body">
+                <div class="col m-2">
+                  <div class="container center-important">
+                    <img src="../../assets/img/store/6.png" loading="lazy">
+                  </div>  
+                </div>
+                  <h1 class="card-title pricing-card-title">$100.000<small class="text-muted fw-light">/mco</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                      <li>Buso perchado en tela Monaco</li>
+                      <li>Capucha con forro afelpado o liso</li>
+                      <li>Mangas y cintura en tela Reed</li>
+                      <li>Cordón de gran calibre, ojal y campana en acero inoxidable</li>
+                  </ul>
+                  <a type="button" class="w-100 btn btn-lg btn-outline-primary" routerLink="/hoodies">Detalles</a>
+              </div>
+          </div>
+      </div>
+      <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm m-1">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                  <h4 class="my-0 fw-normal">Camibusos 3x4</h4>
+              </div>
+              <div class="card-body">
+                <div class="col m-2">
+                  <div class="container center-important">
+                    <img src="../../assets/img/store/22.png" loading="lazy">
+                  </div>  
+                </div>
+                  <h1 class="card-title pricing-card-title">$70.000<small class="text-muted fw-light">/mco</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Camisa en tela Circuito tipo Ranglan</li>
+                    <li>Amplia gama de colores</li>
+                    <li>Manga: Larga, 3x4 y corta</li>
+                    <li>Cuello normal y bandeja para dama</li>
+                    <li>Gran detalle en terminados</li>
+                    <li></li>
+                  </ul>
+                  <a type="button" class="w-100 btn btn-lg btn-outline-primary" routerLink="/raglan">Detalles</a>
+              </div>
+          </div>
+      </div>
+      <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm m-1 border-primary">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                  <h4 class="my-0 fw-normal">Camisetas</h4>
+              </div>
+              <div class="card-body">
+                <div class="col m-2">
+                  <div class="container center-important">
+                    <img src="../../assets/img/store/299.png" loading="lazy">
+                  </div>  
+                </div>
+                  <h1 class="card-title pricing-card-title">$35.000<small class="text-muted fw-light">/mco</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Camiseta básica en algodón</li>
+                    <li>Tela  circuito suave y resistente</li>
+                    <li>Excelente detalle en acabados</li>
+                    <li>Amplia variedad en colores</li>
+                    <li>Estampados perzonalizados</li>
+                  </ul>
+                  <a type="button" class="w-100 btn btn-lg btn-outline-primary" routerLink="/camisetas">Detalles</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Ban ? -->
+<!-- <img class="img-banner container-fluid m-0 p-0" src="../../assets/img/var/ban-3.jpg"> -->
+<!-- Banner1+Texto?-->
+<!-- <div class="container">
    <div class="container-fluid row flex-lg-row-reverse align-items-center justify-content-center g-3 mb-4 mt-4 me-0 pe-0 hero px-4">
     <div class="container col-10 col-sm-8 col-lg-6 center-important">
       <img src="../../assets/img/var/0.jpg" loading="lazy">
@@ -155,91 +308,9 @@
       </div>
     </div>
   </div>
-</div>
-<!-- Carrusel -->
-<app-carousel2 [images]="images2" [autoSlide]="true"></app-carousel2>
-<!--Productos y Precios-->
-<div class="container" id="prices">
-    <div class="pricing-header p-1 pb-md-1 text-center mt-4 px-4" >
-      <h1 class="display-4 fw-normal">Diseños Exclusivos</h1>
-      <p class="fs-5 text-muted ms-1 me-1">¡Descubre nuestra línea de ropa que incluye busos hoodies, camibusos 3x4, camisetas y estampados originales.</p>
-    </div>
-    <div class="row row-cols-1 row-cols-md-3 text-center p-3 pb-4 pricing-margin ">
-        <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm m-1">
-                <div class="card-header py-3 text-bg-primary border-primary">
-                    <h4 class="my-0 fw-normal">Hoodies</h4>
-                </div>
-                <div class="card-body">
-                  <div class="col m-2">
-                    <div class="container center-important">
-                      <img src="../../assets/img/store/6.png" loading="lazy">
-                    </div>  
-                  </div>
-                    <h1 class="card-title pricing-card-title">$100.000<small class="text-muted fw-light">/mco</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>Buso perchado en tela Monaco</li>
-                        <li>Capucha con forro afelpado o liso</li>
-                        <li>Mangas y cintura en tela Reed</li>
-                        <li>Cordón de gran calibre, ojal y campana en acero inoxidable</li>
-                    </ul>
-                    <a type="button" class="w-100 btn btn-lg btn-outline-primary" routerLink="/hoodies">Detalles</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm m-1">
-                <div class="card-header py-3 text-bg-primary border-primary">
-                    <h4 class="my-0 fw-normal">Camibusos 3x4</h4>
-                </div>
-                <div class="card-body">
-                  <div class="col m-2">
-                    <div class="container center-important">
-                      <img src="../../assets/img/store/22.png" loading="lazy">
-                    </div>  
-                  </div>
-                    <h1 class="card-title pricing-card-title">$70.000<small class="text-muted fw-light">/mco</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                      <li>Camisa en tela Circuito tipo Ranglan</li>
-                      <li>Amplia gama de colores</li>
-                      <li>Manga: Larga, 3x4 y corta</li>
-                      <li>Cuello normal y bandeja para dama</li>
-                      <li>Gran detalle en terminados</li>
-                      <li></li>
-                    </ul>
-                    <a type="button" class="w-100 btn btn-lg btn-outline-primary" routerLink="/raglan">Detalles</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm m-1 border-primary">
-                <div class="card-header py-3 text-bg-primary border-primary">
-                    <h4 class="my-0 fw-normal">Camisetas</h4>
-                </div>
-                <div class="card-body">
-                  <div class="col m-2">
-                    <div class="container center-important">
-                      <img src="../../assets/img/store/299.png" loading="lazy">
-                    </div>  
-                  </div>
-                    <h1 class="card-title pricing-card-title">$35.000<small class="text-muted fw-light">/mco</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                      <li>Camiseta básica en algodón</li>
-                      <li>Tela  circuito suave y resistente</li>
-                      <li>Excelente detalle en acabados</li>
-                      <li>Amplia variedad en colores</li>
-                      <li>Estampados perzonalizados</li>
-                    </ul>
-                    <a type="button" class="w-100 btn btn-lg btn-outline-primary" routerLink="/camisetas">Detalles</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Banner 2 -->
-<div class="container-fluid m-0 p-0 img-banner">
-  <img class="m-0 p-0" src="../../assets/img/var/ban-1.jpg" alt="">
-</div>
+</div> -->
+<!-- Carrusel2?-->
+<!-- <app-carousel2 [images]="images2" [autoSlide]="true"></app-carousel2> -->
 <!-- Características -->
 <div class="container-fluid py-4 bg-dark text-bg-dark px-4" id="features" >
   <div class="container">
@@ -270,8 +341,6 @@
       </div>
   </div>
 </div>
-<!-- Banner 4 -->
-<img class="img-banner container-fluid m-0 p-0" src="../../assets/img/var/ban-3.jpg">
 <!-- Contacto -->
 <div class="container-fluid p-0 m-0 bg-dark pb-1 px-4">
 <div class="container pt-0 pb-5  contact-container text-bg-dark " id="contact">
