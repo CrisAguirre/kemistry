@@ -3,6 +3,12 @@ img{
     height: 100%;
     object-fit: cover;
 }
+.grilla{
+    width: 22rem;
+}
+.titulo{
+    text-align: center;
+}
 .text-shadow{
     text-shadow: 5px 5px 40px #000;
 } 
@@ -142,7 +148,16 @@ nav.principal a:hover {
 }
 
 /*Media querys*/
-
+@media (min-width: 350px) AND (max-width: 400px){
+    .grilla{
+        width: 23rem;
+    }
+}
+@media (min-width: 400px) AND (max-width: 500px){
+    .grilla{
+        width: 25rem;
+    }
+}
 /*Tab + Movil*/
 @media (max-width: 1000px){
     .collapse-movil{
@@ -236,6 +251,9 @@ nav.principal a:hover {
         color: white;
         cursor: pointer;
         border-radius: 50%;
+    }
+    .grilla{
+        width: 25rem;
     }
 }
 /*Wide - 4k*/
