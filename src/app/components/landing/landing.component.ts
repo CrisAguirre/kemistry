@@ -6,6 +6,7 @@ import * as AOS from 'aos';
   templateUrl: './landing.component.html',
   styleUrls: ['./landing.component.css']
 })
+
 export class LandingComponent implements OnInit {
   ngOnInit() {
     AOS.init();
