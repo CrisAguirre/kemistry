@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -24,8 +23,7 @@ import { RaglanComponent } from './raglan/raglan.component';
 import { CamisetasComponent } from './camisetas/camisetas.component';
 import { EstampadosComponent } from './estampados/estampados.component';
 import { HeadSlideComponent } from './components/shared/head-slide/head-slide.component';
-
-// import localeEsMX from '@angular/common/locales/es-Mx';
+// import  localeEsMX from '@angular/common/locales/es-MX'
 // import { registerLocaleData } from '@angular/common';
 // registerLocaleData(localeEsMX);
 
