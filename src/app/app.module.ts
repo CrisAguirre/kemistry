@@ -25,9 +25,9 @@ import { CamisetasComponent } from './camisetas/camisetas.component';
 import { EstampadosComponent } from './estampados/estampados.component';
 import { HeadSlideComponent } from './components/shared/head-slide/head-slide.component';
 
-import localeEsMX from '@angular/common/locales/es-Mx';
-import { registerLocaleData } from '@angular/common';
-registerLocaleData(localeEsMX);
+// import localeEsMX from '@angular/common/locales/es-Mx';
+// import { registerLocaleData } from '@angular/common';
+// registerLocaleData(localeEsMX);
 
 @NgModule({
   declarations: [
