@@ -3,6 +3,20 @@ img{
     height: 100%;
     object-fit: cover;
 }
+.card-title{
+    text-align: center !important;
+}
+.card-text{
+    text-align: center !important;
+}
+.btn{
+    display: grid;
+    align-items: center !important;
+}
+.btn-primary{
+    display: grid;
+    align-items: center !important;
+}
 .grilla{
     width: 22rem;
 }
