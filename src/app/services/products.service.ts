@@ -40,7 +40,7 @@ export class ShopService {
     {
       name: 'Hoodie Hombre Blanco',
       description: 'Buso en algodón perchado Monaco, capucha con forro liso, mangas y cintura en tela Reed, cordón de buen calibre y resistente, ojal y campana en acero inoxidable, costura frontal bolsillo - hombro, tallas XS - XL.',
-      category: 'airpods',
+      category: 'Hoodie',
       id: 8,
       price: 100000,
       identifier: 'Hoodie Hombre Blanco',
@@ -320,7 +320,7 @@ export class ShopService {
     {
       name: 'Camiseta negra Demon Slayer',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 33,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -330,7 +330,7 @@ export class ShopService {
     {
       name: 'Camiseta negra Demon Slayer',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 34,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -340,7 +340,7 @@ export class ShopService {
     {
       name: 'Camiseta negra Demon Slayer',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 35,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -350,7 +350,7 @@ export class ShopService {
     {
       name: 'Camiseta negra Demon Slayer',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 36,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -360,7 +360,7 @@ export class ShopService {
     {
       name: 'Camiseta negra Demon Slayer',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 37,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -370,7 +370,7 @@ export class ShopService {
     {
       name: 'Camiseta negra Demon Slayer',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 38,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -380,7 +380,7 @@ export class ShopService {
     {
       name: 'Camiseta negra Demon Slayer',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 39,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -390,7 +390,7 @@ export class ShopService {
     {
       name: 'Camiseta negra Demon Slayer',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 40,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -400,7 +400,7 @@ export class ShopService {
     {
       name: 'Camiseta negra Demon Slayer',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 41,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -410,7 +410,7 @@ export class ShopService {
     {
       name: 'Camiseta negra Demon Slayer',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 42,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -420,7 +420,7 @@ export class ShopService {
     {
       name: 'Camiseta negra Demon Slayer',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 43,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -430,7 +430,7 @@ export class ShopService {
     {
       name: 'Camiseta negra Demon Slayer',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 44,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -440,7 +440,7 @@ export class ShopService {
     {
       name: 'Camiseta negra Demon Slayer',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 45,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -450,7 +450,7 @@ export class ShopService {
     {
       name: 'Camiseta negra Demon Slayer',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 46,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -460,7 +460,7 @@ export class ShopService {
     {
       name: 'Camiseta negra Demon Slayer',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 47,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -470,7 +470,7 @@ export class ShopService {
     {
       name: 'Camiseta negra Demon Slayer',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 48,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -480,7 +480,7 @@ export class ShopService {
     {
       name: 'Camiseta negra Demon Slayer',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 49,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -490,7 +490,7 @@ export class ShopService {
     {
       name: 'Camiseta negra Demon Slayer',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 50,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -500,7 +500,7 @@ export class ShopService {
     {
       name: 'Camiseta negra Demon Slayer',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 51,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -510,7 +510,7 @@ export class ShopService {
     {
       name: 'Camiseta negra Demon Slayer',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 52,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -520,7 +520,7 @@ export class ShopService {
     {
       name: 'Camiseta Attack on Titan',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 53,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -530,7 +530,7 @@ export class ShopService {
     {
       name: 'Camiseta Attack on Titan',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 54,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -540,7 +540,7 @@ export class ShopService {
     {
       name: 'Camiseta Attack on Titan',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 55,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -550,7 +550,7 @@ export class ShopService {
     {
       name: 'Camiseta Attack on Titan',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 56,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -560,7 +560,7 @@ export class ShopService {
     {
       name: 'Camiseta Attack on Titan',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 57,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -570,7 +570,7 @@ export class ShopService {
     {
       name: 'Camiseta Attack on Titan',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 58,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -580,7 +580,7 @@ export class ShopService {
     {
       name: 'Camiseta Attack on Titan',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 59,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -590,7 +590,7 @@ export class ShopService {
     {
       name: 'Camiseta Attack on Titan',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 60,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -600,7 +600,7 @@ export class ShopService {
     {
       name: 'Camiseta Attack on Titan',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 61,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -610,7 +610,7 @@ export class ShopService {
     {
       name: 'Camiseta Attack on Titan',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 62,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -620,7 +620,7 @@ export class ShopService {
     {
       name: 'Camiseta Attack on Titan',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 63,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -630,7 +630,7 @@ export class ShopService {
     {
       name: 'Camiseta Attack on Titan',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 64,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -640,7 +640,7 @@ export class ShopService {
     {
       name: 'Camiseta Attack on Titan',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 65,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -650,7 +650,7 @@ export class ShopService {
     {
       name: 'Camiseta Attack on Titan',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 66,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -660,7 +660,7 @@ export class ShopService {
     {
       name: 'Camiseta Attack on Titan',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 67,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -670,7 +670,7 @@ export class ShopService {
     {
       name: 'Camiseta Attack on Titan',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 68,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -680,7 +680,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 69,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -690,7 +690,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 70,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -700,7 +700,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 71,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -710,7 +710,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 72,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -720,7 +720,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 73,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -730,7 +730,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 74,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -740,7 +740,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 75,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -750,7 +750,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 76,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -760,7 +760,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 77,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -770,7 +770,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 78,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -780,7 +780,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 79,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -790,7 +790,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 80,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -800,7 +800,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 81,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -810,7 +810,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 82,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -820,7 +820,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 83,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -830,7 +830,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 84,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -840,7 +840,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 85,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -850,7 +850,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 86,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -860,7 +860,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 87,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -870,7 +870,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 88,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -880,7 +880,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 89,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -890,7 +890,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 90,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -900,7 +900,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 91,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -910,7 +910,7 @@ export class ShopService {
     {
       name: 'Camiseta Berserk',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 92,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -920,7 +920,7 @@ export class ShopService {
     {
       name: 'Camiseta Evangelion',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 93,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -930,7 +930,7 @@ export class ShopService {
     {
       name: 'Camiseta Evangelion',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 94,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -940,7 +940,7 @@ export class ShopService {
     {
       name: 'Camiseta Evangelion',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 95,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -950,7 +950,7 @@ export class ShopService {
     {
       name: 'Camiseta Evangelion',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 96,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -960,7 +960,7 @@ export class ShopService {
     {
       name: 'Camiseta Evangelion',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 97,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -970,7 +970,7 @@ export class ShopService {
     {
       name: 'Camiseta Evangelion',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 98,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -980,7 +980,7 @@ export class ShopService {
     {
       name: 'Camiseta Evangelion',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 99,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -990,7 +990,7 @@ export class ShopService {
     {
       name: 'Camiseta Evangelion',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 100,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -1000,7 +1000,7 @@ export class ShopService {
     {
       name: 'Camiseta Evangelion',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 101,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -1010,7 +1010,7 @@ export class ShopService {
     {
       name: 'Camiseta Evangelion',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 102,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -1020,7 +1020,7 @@ export class ShopService {
     {
       name: 'Camiseta Evangelion',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 103,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -1030,7 +1030,7 @@ export class ShopService {
     {
       name: 'Camiseta Evangelion',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 104,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -1040,7 +1040,7 @@ export class ShopService {
     {
       name: 'Camiseta Evangelion',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 105,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -1050,7 +1050,7 @@ export class ShopService {
     {
       name: 'Camiseta Evangelion',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 106,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -1060,7 +1060,7 @@ export class ShopService {
     {
       name: 'Camiseta Evangelion',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 107,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -1070,7 +1070,7 @@ export class ShopService {
     {
       name: 'Camiseta Bartman',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 108,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -1080,7 +1080,7 @@ export class ShopService {
     {
       name: 'Camiseta',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 109,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -1090,7 +1090,7 @@ export class ShopService {
     {
       name: 'Camiseta',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 110,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -1100,7 +1100,7 @@ export class ShopService {
     {
       name: 'Camiseta',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 111,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -1110,7 +1110,7 @@ export class ShopService {
     {
       name: 'Camiseta',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 112,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -1120,7 +1120,7 @@ export class ShopService {
     {
       name: 'Camiseta',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 113,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -1130,7 +1130,7 @@ export class ShopService {
     {
       name: 'Camiseta',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 114,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -1140,7 +1140,7 @@ export class ShopService {
     {
       name: 'Camiseta',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 115,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -1150,7 +1150,7 @@ export class ShopService {
     {
       name: 'Camiseta',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 116,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -1160,7 +1160,7 @@ export class ShopService {
     {
       name: 'Camiseta',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 117,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -1170,7 +1170,7 @@ export class ShopService {
     {
       name: 'Camiseta',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 118,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
@@ -1180,7 +1180,7 @@ export class ShopService {
     {
       name: 'Camiseta',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
-      category: 'Camisetas',
+      category: 'Estampados',
       id: 119,
       price: 60000,
       identifier: 'Camiseta Básica Algodón Hombre Negra',
