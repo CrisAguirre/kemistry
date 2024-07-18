@@ -19,6 +19,11 @@ export class ProductsCardComponent implements OnInit {
     this.addToCartClick.emit(this.product);
   }
 
-  ngOnInit(): void { }
+//   public boolean filter:boolean;
+//     {{product.category == 'Hoodie'}}
+
+//
+// 
+ngOnInit(): void { }
 }
 

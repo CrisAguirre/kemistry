@@ -37,4 +37,8 @@ export class CheckoutComponent implements OnInit {
     this.discount = this.checkoutService.getDiscount();
 
   }
+  // emptyCart(products: products):void {
+  //   this.checkoutService.resetCart();
+  //   this.checkoutService.updateCart(products);
+  // }
 }
