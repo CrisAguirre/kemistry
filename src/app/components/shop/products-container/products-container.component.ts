@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Product } from '../../../interfaces/products.interface';
 import { ShopService } from '../../../services/products.service';
 import { CheckoutService } from '../../../services/checkout.service';
+import { NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-products-container',
@@ -18,9 +19,10 @@ export class ProductsContainerComponent implements OnInit {
   constructor(private shopService: ShopService, private checkoutService: CheckoutService) { }
 
   ngOnInit(): void {
-    this.shopService.getProducts().subscribe((products) => {
-      this.products = products;
-    });
+    let flag:false;
+      this.shopService.getProducts().subscribe((products) => {
+        this.products = products;
+      });
   }
 
   addToCart(product: Product): void {
