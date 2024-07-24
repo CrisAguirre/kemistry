@@ -14,7 +14,7 @@ export class CheckoutComponent implements OnInit {
   public sendEmail(e: Event): void {
     this.sendContainer = true;
     e.preventDefault();
-    emailjs.sendForm('service_s2i6tdl', 'template_3nwt1ms', e.target as HTMLFormElement, 'sV9Ajqlig0lkp_0dX')
+    emailjs.sendForm('service_kemistry', 'template_4igbt1w', e.target as HTMLFormElement, 'cGrzb1XtTx9Kzyc7X')
       .then((result: EmailJSResponseStatus) => {
         console.log(result.text);
       }, (error) => {
