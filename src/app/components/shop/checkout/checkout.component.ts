@@ -64,10 +64,9 @@ export class CheckoutComponent implements OnInit {
     // scroll hacia el top
     window.scrollTo({ top: 0, behavior: 'smooth' });
     this.discount = this.checkoutService.getDiscount();
-
   }
-  // emptyCart(products: products):void {
-  //   this.checkoutService.resetCart();
-  //   this.checkoutService.updateCart(products);
-  // }
+
+  vaciarCarrito(): void {
+    this.checkoutService.vaciarCarrito();
+  }
 }

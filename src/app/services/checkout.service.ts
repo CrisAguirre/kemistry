@@ -65,4 +65,9 @@ export class CheckoutService {
       this.totalSubject.next(total);
     } 
 
+    vaciarCarrito(): void {
+      this.cartSubject.next([]);
+      this.quantitySubject.next(0);
+      this.totalSubject.next(0);
+    }
 }
