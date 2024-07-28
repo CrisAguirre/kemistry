@@ -10,7 +10,7 @@ export class ShopService {
     {
       name: 'Hoodie Hombre Gris',
       description: 'Buso en algodón perchado Monaco, capucha con forro liso, mangas y cintura en tela Reed, cordón de buen calibre y resistente, ojal y campana en acero inoxidable, costura frontal bolsillo - hombro, tallas XS - XL.',
-      category: 'Hoodie',
+      category: 'Hoodies',
       id: 5,
       price: 100000,
       identifier: 'Hoodie Hombre Gris',
@@ -20,7 +20,7 @@ export class ShopService {
     {
       name: 'Hoodie Hombre Azul Marino',
       description: 'Buso en algodón perchado Monaco, capucha con forro liso, mangas y cintura en tela Reed, cordón de buen calibre y resistente, ojal y campana en acero inoxidable, costura frontal bolsillo - hombro, tallas XS - XL.',
-      category: 'Hoodie',
+      category: 'Hoodies',
       id: 6,
       price: 100000,
       identifier: 'Hoodie Hombre Azul Marino',
@@ -30,7 +30,7 @@ export class ShopService {
     {
       name: 'Hoodie Hombre Negro',
       description: 'Buso en algodón perchado Monaco, capucha con forro liso, mangas y cintura en tela Reed, cordón de buen calibre y resistente, ojal y campana en acero inoxidable, costura frontal bolsillo - hombro, tallas XS - XL.',
-      category: 'Hoodie',
+      category: 'Hoodies',
       id: 7,
       price: 100000,
       identifier: 'Hoodie Hombre Negro',
@@ -40,7 +40,7 @@ export class ShopService {
     {
       name: 'Hoodie Hombre Blanco',
       description: 'Buso en algodón perchado Monaco, capucha con forro liso, mangas y cintura en tela Reed, cordón de buen calibre y resistente, ojal y campana en acero inoxidable, costura frontal bolsillo - hombro, tallas XS - XL.',
-      category: 'Hoodie',
+      category: 'Hoodies',
       id: 8,
       price: 100000,
       identifier: 'Hoodie Hombre Blanco',
@@ -50,7 +50,7 @@ export class ShopService {
     {
       name: 'Hoodie Mujer Azul Marino',
       description: 'Buso en algodón perchado Monaco, capucha con forro afelpado, mangas y cintura en tela Reed, cordón de buen calibre y resistente, ojal y campana en acero inoxidable, costura frontal bolsillo - hombro, tallas XS - XL.',
-      category: 'Hoodie',
+      category: 'Hoodies',
       id: 1,
       price: 100000,
       identifier: 'Hoodie Mujer Azul Marino',
@@ -60,7 +60,7 @@ export class ShopService {
     {
       name: 'Hoodie Mujer Gris',
       description: 'Buso en algodón perchado Monaco, capucha con forro afelpado, mangas y cintura en tela Reed, cordón de buen calibre y resistente, ojal y campana en acero inoxidable, costura frontal bolsillo - hombro, tallas XS - XL.',
-      category: 'Hoodie',
+      category: 'Hoodies',
       id: 2,
       price: 100000,
       identifier: 'Hoodie Mujer Gris',
@@ -70,7 +70,7 @@ export class ShopService {
     {
       name: 'Hoodie Mujer Negro',
       description: 'Buso en algodón perchado Monaco, capucha con forro afelpado, mangas y cintura en tela Reed, cordón de buen calibre y resistente, ojal y campana en acero inoxidable, costura frontal bolsillo - hombro, tallas XS - XL.',
-      category: 'Hoodie',
+      category: 'Hoodies',
       id: 3,
       price: 100000,
       identifier: 'Hoodie Mujer Negro',
@@ -80,7 +80,7 @@ export class ShopService {
     {
       name: 'Hoodie Mujer Blanco',
       description: 'Buso en algodón perchado Monaco, capucha con forro afelpado, mangas y cintura en tela Reed, cordón de buen calibre y resistente, ojal y campana en acero inoxidable, costura frontal bolsillo - hombro, tallas XS - XL.',
-      category: 'Hoodie',
+      category: 'Hoodies',
       id: 4,
       price: 100000,
       identifier: 'Hoodie Mujer Blanco',
@@ -90,7 +90,7 @@ export class ShopService {
     {
       name: 'Camisa Raglan Mujer Amarillo-Blanco',
       description:'Camisa en tela Circuito, colores customizables, cuello en tela Reed, manga larga - 3x4 - corta, cuello normal - bandeja para dama, gran detalle en terminados',
-      category: 'Raglan',
+      category: 'Camibusos',
       id: 9,
       price: 70000,
       identifier: 'Camisa Raglan Mujer Amarillo-Blanco',
@@ -100,7 +100,7 @@ export class ShopService {
     {
       name: 'Camisa Raglan Mujer Azul-Blanco',
       description:'Camisa en tela Circuito, colores customizables, cuello en tela Reed, manga larga - 3x4 - corta, cuello normal - bandeja para dama, gran detalle en terminados',
-      category: 'Raglan',
+      category: 'Camibusos',
       id: 10,
       price: 70000,
       identifier: 'Camisa Raglan Mujer Azul-Blanco',
@@ -110,7 +110,7 @@ export class ShopService {
     {
       name: 'Camisa Raglan Mujer Gris Blanco',
       description:'Camisa en tela Circuito, colores customizables, cuello en tela Reed, manga larga - 3x4 - corta, cuello normal - bandeja para dama, gran detalle en terminados',
-      category: 'Raglan',
+      category: 'Camibusos',
       id: 11,
       price: 70000,
       identifier: 'Camisa Raglan Mujer Gris Blanco',
@@ -120,7 +120,7 @@ export class ShopService {
     {
       name: 'Camisa Raglan Mujer Negro-Blanco',
       description:'Camisa en tela Circuito, colores customizables, cuello en tela Reed, manga larga - 3x4 - corta, cuello normal - bandeja para dama, gran detalle en terminados',
-      category: 'Raglan',
+      category: 'Camibusos',
       id: 12,
       price: 70000,
       identifier: 'Camisa Raglan Mujer Negro-Blanco',
@@ -130,7 +130,7 @@ export class ShopService {
     {
       name: 'Camisa Raglan Mujer Rojo-Blanco',
       description:'Camisa en tela Circuito, colores customizables, cuello en tela Reed, manga larga - 3x4 - corta, cuello normal - bandeja para dama, gran detalle en terminados',
-      category: 'Raglan',
+      category: 'Camibusos',
       id: 13,
       price: 70000,
       identifier: 'Camisa Raglan Mujer Rojo-Blanco',
@@ -140,7 +140,7 @@ export class ShopService {
     {
       name: 'Camisa Raglan Mujer Rojo-Negro',
       description:'Camisa en tela Circuito, colores customizables, cuello en tela Reed, manga larga - 3x4 - corta, cuello normal - bandeja para dama, gran detalle en terminados',
-      category: 'Raglan',
+      category: 'Camibusos',
       id: 14,
       price: 70000,
       identifier: 'Camisa Raglan Mujer Rojo-Negro',
@@ -150,7 +150,7 @@ export class ShopService {
     {
       name: 'Camisa Raglan Mujer Negro-Gris',
       description:'Camisa en tela Circuito, colores customizables, cuello en tela Reed, manga larga - 3x4 - corta, cuello normal - bandeja para dama, gran detalle en terminados',
-      category: 'Raglan',
+      category: 'Camibusos',
       id: 15,
       price: 70000,
       identifier: 'Camisa Raglan Mujer Negro-Gris',
@@ -160,7 +160,7 @@ export class ShopService {
     {
       name: 'Camisa Raglan Mujer Rojo-Gris',
       description:'Camisa en tela Circuito, colores customizables, cuello en tela Reed, manga larga - 3x4 - corta, cuello normal - bandeja para dama, gran detalle en terminados',
-      category: 'Raglan',
+      category: 'Camibusos',
       id: 16,
       price: 70000,
       identifier: 'Camisa Raglan Mujer Rojo-Gris',
@@ -170,7 +170,7 @@ export class ShopService {
     {
       name: 'Camisa Raglan Mujer Gris-Negro',
       description:'Camisa en tela Circuito, colores customizables, cuello en tela Reed, manga larga - 3x4 - corta, cuello normal - bandeja para dama, gran detalle en terminados',
-      category: 'Raglan',
+      category: 'Camibusos',
       id: 17,
       price: 70000,
       identifier: 'Camisa Raglan Mujer Gris-Negro',
@@ -180,7 +180,7 @@ export class ShopService {
     {
       name: 'Camisa Raglan Hombre Gris-Blanco',
       description:'Camisa en tela Circuito, colores customizables, cuello en tela Reed, manga larga - 3x4 - corta, cuello normal - bandeja para dama, gran detalle en terminados',
-      category: 'Raglan',
+      category: 'Camibusos',
       id: 18,
       price: 70000,
       identifier: 'Camisa Raglan Hombre Gris-Blanco',
@@ -190,7 +190,7 @@ export class ShopService {
     {
       name: 'Camisa Raglan Hombre Azul-Blanco',
       description:'Camisa en tela Circuito, colores customizables, cuello en tela Reed, manga larga - 3x4 - corta, cuello normal - bandeja para dama, gran detalle en terminados',
-      category: 'Raglan',
+      category: 'Camibusos',
       id: 19,
       price: 70000,
       identifier: 'Camisa Raglan Hombre Azul-Blanco',
@@ -200,7 +200,7 @@ export class ShopService {
     {
       name: 'Camisa Raglan Hombre Negro-Blanco',
       description:'Camisa en tela Circuito, colores customizables, cuello en tela Reed, manga larga - 3x4 - corta, cuello normal - bandeja para dama, gran detalle en terminados',
-      category: 'Raglan',
+      category: 'Camibusos',
       id: 20,
       price: 70000,
       identifier: 'Camisa Raglan Hombre Negro-Blanco',
@@ -210,7 +210,7 @@ export class ShopService {
     {
       name: 'Camisa Raglan Hombre Rojo-Blanco',
       description:'Camisa en tela Circuito, colores customizables, cuello en tela Reed, manga larga - 3x4 - corta, cuello normal - bandeja para dama, gran detalle en terminados',
-      category: 'Raglan',
+      category: 'Camibusos',
       id: 21,
       price: 70000,
       identifier: 'Camisa Raglan Hombre Rojo-Blanco',
@@ -220,7 +220,7 @@ export class ShopService {
     {
       name: 'Camisa Raglan Hombre Negro-Gris',
       description:'Camisa en tela Circuito, colores customizables, cuello en tela Reed, manga larga - 3x4 - corta, cuello normal - bandeja para dama, gran detalle en terminados',
-      category: 'Raglan',
+      category: 'Camibusos',
       id: 22,
       price: 70000,
       identifier: 'Camisa Raglan Hombre Negro-Gris',
@@ -230,7 +230,7 @@ export class ShopService {
     {
       name: 'Camisa Raglan Hombre Rojo-Gris',
       description:'Camisa en tela Circuito, colores customizables, cuello en tela Reed, manga larga - 3x4 - corta, cuello normal - bandeja para dama, gran detalle en terminados',
-      category: 'Raglan',
+      category: 'Camibusos',
       id: 23,
       price: 70000,
       identifier: 'Camisa Raglan Hombre Rojo-Gris',
@@ -240,7 +240,7 @@ export class ShopService {
     {
       name: 'Camisa Raglan Hombre Gris-Negro',
       description:'Camisa en tela Circuito, colores customizables, cuello en tela Reed, manga larga - 3x4 - corta, cuello normal - bandeja para dama, gran detalle en terminados',
-      category: 'Raglan',
+      category: 'Camibusos',
       id: 24,
       price: 70000,
       identifier: 'Camisa Raglan Hombre Gris-Negro',
@@ -250,7 +250,7 @@ export class ShopService {
     {
       name: 'Camisa Raglan Hombre Negro-Rojo',
       description:'Camisa en tela Circuito, colores customizables, cuello en tela Reed, manga larga - 3x4 - corta, cuello normal - bandeja para dama, gran detalle en terminados',
-      category: 'Raglan',
+      category: 'Camibusos',
       id: 25,
       price: 70000,
       identifier: 'Camisa Raglan Hombre Negro-Rojo',
@@ -1078,7 +1078,7 @@ export class ShopService {
       qty: 1,
     },
     {
-      name: 'Camiseta',
+      name: 'Camiseta Estampada',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
       category: 'Estampados',
       id: 109,
@@ -1088,7 +1088,7 @@ export class ShopService {
       qty: 1,
     },
     {
-      name: 'Camiseta',
+      name: 'Camiseta Estampada',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
       category: 'Estampados',
       id: 110,
@@ -1098,7 +1098,7 @@ export class ShopService {
       qty: 1,
     },
     {
-      name: 'Camiseta',
+      name: 'Camiseta Estampada',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
       category: 'Estampados',
       id: 111,
@@ -1108,7 +1108,7 @@ export class ShopService {
       qty: 1,
     },
     {
-      name: 'Camiseta',
+      name: 'Camiseta Estampada',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
       category: 'Estampados',
       id: 112,
@@ -1118,7 +1118,7 @@ export class ShopService {
       qty: 1,
     },
     {
-      name: 'Camiseta',
+      name: 'Camiseta Estampada',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
       category: 'Estampados',
       id: 113,
@@ -1128,7 +1128,7 @@ export class ShopService {
       qty: 1,
     },
     {
-      name: 'Camiseta',
+      name: 'Camiseta Estampada',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
       category: 'Estampados',
       id: 114,
@@ -1138,7 +1138,7 @@ export class ShopService {
       qty: 1,
     },
     {
-      name: 'Camiseta',
+      name: 'Camiseta Estampada',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
       category: 'Estampados',
       id: 115,
@@ -1148,7 +1148,7 @@ export class ShopService {
       qty: 1,
     },
     {
-      name: 'Camiseta',
+      name: 'Camiseta Estampada',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
       category: 'Estampados',
       id: 116,
@@ -1158,7 +1158,7 @@ export class ShopService {
       qty: 1,
     },
     {
-      name: 'Camiseta',
+      name: 'Camiseta Estampada',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
       category: 'Estampados',
       id: 117,
@@ -1168,7 +1168,7 @@ export class ShopService {
       qty: 1,
     },
     {
-      name: 'Camiseta',
+      name: 'Camiseta Estampada',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
       category: 'Estampados',
       id: 118,
@@ -1178,7 +1178,7 @@ export class ShopService {
       qty: 1,
     },
     {
-      name: 'Camiseta',
+      name: 'Camiseta Estampada',
       description:'Camiseta en algodón básica de calidad, gran detalle en terminados.',
       category: 'Estampados',
       id: 119,
