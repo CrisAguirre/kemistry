@@ -22,7 +22,7 @@ export class DetailsComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private shopService: ShopService,
+    private productsService: ShopService,
   ) {
 
   }
@@ -30,7 +30,7 @@ export class DetailsComponent implements OnInit {
   ngOnInit(): void {
     this.categoryDetail = this.route.snapshot.paramMap.get('category')!;
     this.idDetail = this.route.snapshot.paramMap.get('id')!;
-    this.shopService.getProducts().subscribe((products: Product[]) => {
+    this.productsService.getProducts().subscribe((products: Product[]) => {
       this.product = products.find(
         (product: Product) =>
           product.category === this.categoryDetail && 

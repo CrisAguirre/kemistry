@@ -23,6 +23,9 @@ import { RaglanComponent } from './raglan/raglan.component';
 import { CamisetasComponent } from './camisetas/camisetas.component';
 import { EstampadosComponent } from './estampados/estampados.component';
 import { HeadSlideComponent } from './components/shared/head-slide/head-slide.component';
+import { ShopService } from './services/products.service';
+import { ReactiveFormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 // import  localeEsMX from '@angular/common/locales/es-MX'
 // import { registerLocaleData } from '@angular/common';
 // registerLocaleData(localeEsMX);
@@ -36,9 +39,6 @@ import { HeadSlideComponent } from './components/shared/head-slide/head-slide.co
     ProductsComponent, 
     FooterComponent,
     CheckoutComponent,
-    DetailsComponent,
-    ProductsContainerComponent,
-    ProductsCardComponent,
     CheckoutCardComponent,
     KemistryComponent,
     HoodiesComponent,
@@ -46,7 +46,9 @@ import { HeadSlideComponent } from './components/shared/head-slide/head-slide.co
     CamisetasComponent,
     EstampadosComponent,
     HeadSlideComponent,
-    
+    ProductsCardComponent,
+    DetailsComponent,
+    ProductsContainerComponent,
   ],
   imports: [
     AppRoutingModule,
@@ -55,11 +57,11 @@ import { HeadSlideComponent } from './components/shared/head-slide/head-slide.co
     HttpClientModule,
     CommonModule,
     CarouselModule,
-    Carousel2Module
-
-
+    Carousel2Module,
+    ReactiveFormsModule,
+    RouterModule,
   ],
-  providers: [],
+  providers: [ShopService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -11,7 +11,9 @@ import { NgIf } from '@angular/common';
         <app-products-card (addToCartClick)="addToCart($event)" [product]="product" *ngFor="let product of products"></app-products-card>
     </div>
   `,
-  styleUrls: ['./products-container.component.css']
+  styleUrls: ['./products-container.component.css'],
+  //standalone: true,
+  
 })
 export class ProductsContainerComponent implements OnInit {
   products!: Product[];
@@ -19,7 +21,6 @@ export class ProductsContainerComponent implements OnInit {
   constructor(private shopService: ShopService, private checkoutService: CheckoutService) { }
 
   ngOnInit(): void {
-    let flag:false;
       this.shopService.getProducts().subscribe((products) => {
         this.products = products;
       });

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Observable, of } from 'rxjs';
+import { Observable, of, BehaviorSubject } from 'rxjs';
 import { Product } from '../interfaces/products.interface';
 
 @Injectable({
@@ -1219,9 +1219,19 @@ export class ShopService {
     },
   ];
 
+  private filteredProducts: BehaviorSubject<Product[]> = new BehaviorSubject<Product[]>(this.products);
+
   constructor() {}
 
   getProducts(): Observable<Product[]> {
-    return of(this.products);
+    return this.filteredProducts.asObservable();
+  }
+  filterProducts(category: string): void {
+    if (category === 'Todos') {
+      this.filteredProducts.next(this.products);
+    } else {
+      const filtered = this.products.filter(product => product.category === category);
+      this.filteredProducts.next(filtered);
+    }
   }
 }
