@@ -15,11 +15,56 @@
           <img src="../../../../assets/img/var/logo-shop-head.png" loading="lazy">
         </a>
       </div>  
+            <!--Barra de menu para escritorio y wide-->
+            <div class="collapse navbar-collapse collapse-nomovil" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active text-dark" aria-current="page" routerLink="/hoodies">Hoodies</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-dark" aria-current="page" routerLink="/raglan">Camibusos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-dark" aria-current="page" routerLink="/camisetas">Camisetas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-dark" aria-current="page" routerLink="/estampados">Estampados</a>
+                </li>
+              </ul>
+            </div>
+            <button class="botonMenu collapse-movil">
+              <i class="fa fa-bars"></i>
+            </button>
+            <!--Barra de menu para móviles-->
+            <nav class="bg-dark principal collapse-movil">
+              <form class="d-flex">
+                <a routerLink="./shop">
+                  <button class="btn btn-primary" type="button">eShop</button>
+                </a>
+              </form>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" routerLink="/hoodies">Hoodies</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" routerLink="/raglan">Camibusos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" routerLink="/camisetas">Camisetas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" routerLink="/estampados">Estampados</a>
+                </li>
+                <!--<li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" routerLink="/kemistry">Nosotros</a>
+                </li>-->
+              </ul>
+            </nav>
       <div>
         <!--<ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>-->
         <a routerLink="/shop/checkout" class="me-2">
           <button type="button" class="botonMenu fa fa-shopping-cart">
-            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" *ngIf="{quantity: quantity$ | async } as dataCart">
+            <span class="position-absolute down-0 start-100 translate-middle badge rounded-pill bg-danger" *ngIf="{quantity: quantity$ | async } as dataCart">
               <ng-container *ngIf="dataCart.quantity !== 0">{{dataCart.quantity}}</ng-container>
             </span>
           </button>
