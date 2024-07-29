@@ -1,6 +1,6 @@
 <div class="checkout-container">
   <div class="bg-dark text-white container-fluid checkout-title">
-    <h2 class="container pt-4 pb-4 text-center" >Tu Pedido</h2>
+    <h2 class="container pt-3 pb-3 text-center" >Resumen de tu pedido</h2>
   </div>
 </div>
 
@@ -10,7 +10,7 @@
     <div class="pt-2 pb-3 border-bottom container">
       <div id="empty-item" class="d-flex justify-content-center align-items-center">
         <div class="d-flex align-items-center justify-content-start p-2 flex-column">
-          <h2 class="mb-3 mt-1">Agrega productos a tu pedido!</h2>
+          <h2 class="mb-3 mt-1 text-center">Tu carrito de compras esta vacio!</h2>
           <button class="btn btn-primary fs-4 end-buy" routerLink="/shop">Ir a eShop</button>
         </div>
       </div>
@@ -61,7 +61,7 @@
         </div>
       </form>
     
-      <!-- Pago exitoso -->
+      <!-- Pedido exitoso -->
       <div class="w-100 m-0 p-5 d-flex justify-content-center align-items-center flex-column" id="pago-exitoso" *ngIf="sendContainer">
         <h2 class="text-center fs-1 fw-bold pt-4">🎉 Felicitaciones, tu pedido ha sido registrado con exito! 🎊</h2>
         <p class="fs-5 text-center pb-4">Te contactaremos en las próximas 24 horas para gestionar tu pago y despacho.
