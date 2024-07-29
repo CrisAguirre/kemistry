@@ -5,39 +5,39 @@
         <!--<h3 class="pt-0 pb-4 text-white">Realiza tu pedido en minutos.</h3> fst-italic-->
         <a class="btn btn-primary p-2 text-white" href="/shop#products">Realizar un Pedido</a>
     </div>
-        <div class="container text-center pt-2 pb-1" id="elegi">
-            <h2>Elige tu categoria</h2>
+    <div class="container text-center pt-2 pb-1" id="elegi">
+        <h2>Elige tu categoria</h2>
+    </div>
+    <div class="container-fluid container overflow-hidden text-center d-flex justify-content-center aling-items-center pb-5 mt-2 mb-2 filter">
+        <div class="col-md-2 col-sm-5 rounded d-flex flex-column justify-content-center align-items-center" id="btn-airpods">
+            <img src="./assets/img/store/5.png" class="p-3">
+            <a type="button" class="btn btn-primary btn-lg px-2 me-md-2" (click)="filterProducts('Hoodies')">Hoodies</a>
+            <!-- <span class="fw-bold filter-link">Hoodies</span> (click)="Hoodies" -->
         </div>
-        <div class="container-fluid container overflow-hidden text-center d-flex justify-content-center aling-items-center pb-5 mt-2 mb-2 filter">
-            <div class="col-md-2 col-sm-5 rounded d-flex flex-column justify-content-center align-items-center" id="btn-airpods">
-                <img src="./assets/img/store/5.png" class="p-3">
-                <a type="button" class="btn btn-primary btn-lg px-2 me-md-2" (click)="filterProducts('Hoodies')">Hoodies</a>
-                <!-- <span class="fw-bold filter-link">Hoodies</span> (click)="Hoodies" -->
-            </div>
-            <div class="col-md-2 col-sm-5 rounded d-flex flex-column justify-content-center align-items-center" id="btn-iphone">
-                <img src="./assets/img/store/22.png" class="p-3">
-                <a type="button" class="btn btn-primary btn-lg px-2 me-md-2" (click)="filterProducts('Camibusos')">Camibusos</a>
-                <!-- <span class="fw-bold filter-link">Camibusos</span> -->
-            </div>
-            <div class="col-md-2 col-sm-5 rounded d-flex flex-column justify-content-center align-items-center" id="btn-ipad">
-                <img src="./assets/img/store/29.png" class="p-3">
-                <a type="button" class="btn btn-primary btn-lg px-2 me-md-2" (click)="filterProducts('Camisetas')">Camisetas</a>
-                <!-- <span class="fw-bold filter-link">Camisetas</span> -->
-            </div>
-            <div class="col-md-2 col-sm-5 rounded d-flex flex-column justify-content-center align-items-center"  id="btn-macbook">
-                <img src="./assets/img/store/36.png" class="p-3">
-                <a type="button" class="btn btn-primary btn-lg px-2 me-md-2" (click)="filterProducts('Estampados')">Estampados</a>
-                <!-- <span class="fw-bold filter-link">Estampados</span> -->
-            </div>
-            <div class="col-md-2 col-sm-5 rounded d-flex flex-column justify-content-center align-items-center"  id="btn-todos">
-                <img src="./assets/img/var/silueta650N.png" class="p-3">
-                <a type="button" class="btn btn-primary btn-lg px-2 me-md-2" (click)="filterProducts('Todos')">Todos</a>
-            </div>
+        <div class="col-md-2 col-sm-5 rounded d-flex flex-column justify-content-center align-items-center" id="btn-iphone">
+            <img src="./assets/img/store/22.png" class="p-3">
+            <a type="button" class="btn btn-primary btn-lg px-2 me-md-2" (click)="filterProducts('Camibusos')">Camibusos</a>
+            <!-- <span class="fw-bold filter-link">Camibusos</span> -->
         </div>
+        <div class="col-md-2 col-sm-5 rounded d-flex flex-column justify-content-center align-items-center" id="btn-ipad">
+            <img src="./assets/img/store/29.png" class="p-3">
+            <a type="button" class="btn btn-primary btn-lg px-2 me-md-2" (click)="filterProducts('Camisetas')">Camisetas</a>
+            <!-- <span class="fw-bold filter-link">Camisetas</span> -->
+        </div>
+        <div class="col-md-2 col-sm-5 rounded d-flex flex-column justify-content-center align-items-center"  id="btn-macbook">
+            <img src="./assets/img/store/36.png" class="p-3">
+            <a type="button" class="btn btn-primary btn-lg px-2 me-md-2" (click)="filterProducts('Estampados')">Estampados</a>
+            <!-- <span class="fw-bold filter-link">Estampados</span> -->
+        </div>
+        <div class="col-md-2 col-sm-5 rounded d-flex flex-column justify-content-center align-items-center"  id="btn-todos">
+            <img src="./assets/img/var/silueta650N.png" class="p-3">
+            <a type="button" class="btn btn-primary btn-lg px-2 me-md-2" (click)="filterProducts('Todos')">Todos</a>
+        </div>
+    </div>
      
-        <app-products-container id="products">
-            <app-products-card *ngFor="let product of products" [product]="product"></app-products-card>
-          </app-products-container>
+    <app-products-container id="products">
+        <app-products-card *ngFor="let product of products" [product]="product"></app-products-card>
+    </app-products-container>
 
     <ng-container *ngIf="{total: total$ | async} as dataCart">
         <div class="container container-fluid d-flex justify-content-center align-items-center flex-column end-buy-container" *ngIf="dataCart.total !== 0">
@@ -45,7 +45,6 @@
             <!--<p class="fw-lighter mt-2 text-center">Ir a tu pedido!</p>-->
             <button class="btn btn-primary fs-2 end-buy" routerLink="/shop/checkout">Finalizar pedido</button>
         </div>
-        
         <!--<div class="container container-fluid d-flex justify-content-center align-items-center flex-column end-buy-container" *ngIf="dataCart.total === 0">
             <h2>Add items in your cart!</h2>
             <p class="fw-lighter mt-2 text-center">Add products on the cart and go to pay for get the products!</p>
