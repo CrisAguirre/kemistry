@@ -31,8 +31,8 @@
       <p class="text-muted ms-2 fw-lighter border-bottom pb-3" id="retiros-local">* El valor total no incluye costos de envío.</p>
       <!-- final price -->
       <div class="text-center container mt-4" id="precio-final" *ngIf="!sendContainer">
-        <p class="fs-1 fw-bold">Valor total de tu pedido: $ {{dataCart.total | currency : 'USD' : 'symbol' : '1.0-0'}}</p>
-        <p class="fw-bold fs-3 pb-3">Ingresa tus datos para enviarte tu orden de pedido.</p>
+        <p class="fs-3 fw-bold">Valor total de tu pedido: {{dataCart.total | currency : 'USD' : 'symbol' : '1.0-0'}}</p>
+        <p class="fw-bold fs-4 pb-3">Ingresa tus datos para enviarte tu orden de pedido.</p>
         <button class="btn btn-secondary mt-2 p-3 fw-bold shadow-lg fs-3 w-100" (click)="vaciarCarrito()">Vaciar carrito.</button>
       </div>
     
@@ -45,7 +45,7 @@
           </div>
           <div class="col mb-3 col-md-6 col-12">
             <label for="phone" class="form-label">Celular</label>
-            <input type="number" class="form-control" id="phone" name="phone" placeholder="Tu número de celular">
+            <input type="number" class="form-control" id="phone" name="phone" placeholder="Tu número de celular" required>
           </div>
         </div>
         <div class="row">
@@ -56,7 +56,7 @@
         </div>
         <!-- pay seña -->
         <div class="justify-content-center flex-column align-items-center" id="pago-sena" *ngIf="!sendContainer">
-          <button type="submit" class="btn btn-primary mt-2 p-3 fw-bold shadow-lg fs-3 w-100" id="pagar-sena">Realizar tu pedido por {{ dataCart.total | currency : 'USD' : 'symbol' : '1.0-0'}} pesos</button> <!--dataCart.discount-->
+          <button type="submit" class="btn btn-primary mt-2 p-3 fw-bold shadow-lg fs-3 w-100" id="pagar-sena">Realizar tu pedido por {{ dataCart.total | currency : 'USD' : 'symbol' : '1.0-0'}}</button> <!--dataCart.discount-->
           <p class="text-muted pt-3 fw-lighter">* Te contactaremos en las próximas 24 horas para gestionar tu pago y despacho.</p>
         </div>
       </form>
