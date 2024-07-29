@@ -28,14 +28,14 @@ img{
     transform: translateX(0rem);
 }
 
-.botonMenu {
+.botonCart {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 3rem;    
     height: 3rem;
-    position: fixed;    
-    top: 4rem;
+    position: fixed;
+    top: 8rem;
     right: 1rem;
     background-color: #0D6EFD; 
     border: 0;
@@ -84,29 +84,8 @@ nav.principal a:hover {
         flex-wrap: wrap;
         justify-content: flex-start;
     }
-    .botonMenu {
+    .botonCart {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 3rem;    
-        height: 3rem;
-        position: fixed;
-        top: 4rem;
-        right: 1rem;
-        background-color: #0D6EFD; 
-        border: 0;
-        color: white;
-        cursor: pointer;
-        border-radius: 10%;
-    }
-}
-@media (min-width: 1000px) and (max-width: 2000px){
-    .navbar-expand-lg {
-        flex-wrap:wrap;
-        justify-content: flex-start;
-    }
-    .botonMenu {
-        display: none;
         justify-content: center;
         align-items: center;
         width: 3rem;    
@@ -119,5 +98,11 @@ nav.principal a:hover {
         color: white;
         cursor: pointer;
         border-radius: 10%;
+    }
+}
+@media (min-width: 1000px) and (max-width: 2000px){
+    .navbar-expand-lg {
+        flex-wrap:wrap;
+        justify-content: flex-start;
     }
 } 

@@ -1,0 +1,7 @@
+<a routerLink="/shop/checkout" class="me-2">
+    <button type="button" class="botonCart fa fa-shopping-cart">
+      <span class="position-absolute down-0 start-100 translate-middle badge rounded-pill bg-danger" *ngIf="{quantity: quantity$ | async } as dataCart">
+        <ng-container *ngIf="dataCart.quantity !== 0">{{dataCart.quantity}}</ng-container>
+      </span>
+    </button>
+  </a>

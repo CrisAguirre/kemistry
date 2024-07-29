@@ -26,6 +26,7 @@ import { HeadSlideComponent } from './components/shared/head-slide/head-slide.co
 import { ShopService } from './services/products.service';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { CartButtonComponent } from './components/shared/cart-button/cart-button.component';
 // import  localeEsMX from '@angular/common/locales/es-MX'
 // import { registerLocaleData } from '@angular/common';
 // registerLocaleData(localeEsMX);
@@ -49,6 +50,7 @@ import { RouterModule } from '@angular/router';
     ProductsCardComponent,
     DetailsComponent,
     ProductsContainerComponent,
+    CartButtonComponent,
   ],
   imports: [
     AppRoutingModule,
