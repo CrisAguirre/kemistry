@@ -27,6 +27,7 @@ import { ShopService } from './services/products.service';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { CartButtonComponent } from './components/shared/cart-button/cart-button.component';
+import { MobileMenuComponent } from './components/shared/mobile-menu/mobile-menu.component';
 // import  localeEsMX from '@angular/common/locales/es-MX'
 // import { registerLocaleData } from '@angular/common';
 // registerLocaleData(localeEsMX);
@@ -51,6 +52,7 @@ import { CartButtonComponent } from './components/shared/cart-button/cart-button
     DetailsComponent,
     ProductsContainerComponent,
     CartButtonComponent,
+    MobileMenuComponent,
   ],
   imports: [
     AppRoutingModule,

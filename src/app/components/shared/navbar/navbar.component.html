@@ -32,31 +32,7 @@
           </li>
         </ul>
       </div>
-      <button class="botonMenu collapse-movil">
-        <i class="fa fa-bars"></i>
-      </button>
-      <!--Barra de menu para móviles-->
-      <nav class="bg-dark principal collapse-movil">
-        <form class="d-flex">
-          <a routerLink="./shop">
-            <button class="btn btn-primary" type="button">eShop</button>
-          </a>
-        </form>
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="/hoodies">Hoodies</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="/raglan">Camibusos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="/camisetas">Camisetas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" routerLink="/estampados">Estampados</a>
-          </li>
-        </ul>
-      </nav>
+      <app-mobile-menu></app-mobile-menu>
       <div>
         <app-cart-button></app-cart-button>
       </div>
