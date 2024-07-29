@@ -100,9 +100,24 @@ nav.principal a:hover {
         border-radius: 10%;
     }
 }
-@media (min-width: 1000px) and (max-width: 2000px){
+@media (min-width: 1300px) and (max-width: 2000px){
     .navbar-expand-lg {
         flex-wrap:wrap;
         justify-content: flex-start;
+    }
+    .botonCart {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 4rem;    
+        height: 4rem;
+        position: fixed;
+        top: 10rem;
+        left: 3rem;
+        background-color: #0D6EFD; 
+        border: 0;
+        color: white;
+        cursor: pointer;
+        border-radius: 10%;
     }
 } 
