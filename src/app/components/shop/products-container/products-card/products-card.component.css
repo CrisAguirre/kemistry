@@ -1,18 +1,120 @@
+@media (min-width: 1366px) {
+  app-products-container {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  .card {
+    width: 375px;
+    min-height: 440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto; /* Añade esta línea para centrar la tarjeta */
+  }
+  app-products-card {
+    height: 100%;
+  }
+}
+
 .card {
   width: 375px;
   min-height: 440px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
   text-align: center;
+  margin: 0 auto; /* Añade esta línea para centrar la tarjeta */
 }
+
 .img-card-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 15px;
 }
+
 .img-card-container img {
   height: 110px;
   width: auto;
+}
+
+@media (max-width: 767px) { /* Añade este bloque para dispositivos móviles */
+  app-products-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  app-products-card {
+    width: 100%;
+    max-width: 375px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1366px) {
+  app-products-container {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  app-products-card {
+    height: 100%;
+  }
+}
+@media (max-width: 430px) {
+  app-products-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15 px;
+  }
+
+  app-products-card {
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  .card {
+    max-width: 100%;
+    margin-left: 15px;
+  }
+}
+@media (max-width: 390px) {
+  app-products-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15 px;
+  }
+
+  app-products-card {
+    width: 95%;
+    margin-left: 20px;
+  }
+
+  .card {
+    max-width: 95%;
+    margin-left: 3px;
+  }
+}
+
+@media (min-width: 410px) and (max-width: 414px){
+  app-products-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15 px;
+  }
+
+  app-products-card {
+    width: 95%;
+    margin-left: 20px;
+  }
+
+  .card {
+    max-width: 95%;
+    margin-left: 10px;
+  }
 }

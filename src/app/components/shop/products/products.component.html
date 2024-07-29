@@ -35,8 +35,10 @@
         </div>
     </div>
      
-    <app-products-container id="products">
-        <app-products-card *ngFor="let product of products" [product]="product"></app-products-card>
+    <app-products-container id="products" class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4" *ngFor="let product of products">
+            <app-products-card [product]="product"></app-products-card>
+        </div>
     </app-products-container>
 
     <ng-container *ngIf="{total: total$ | async} as dataCart">
