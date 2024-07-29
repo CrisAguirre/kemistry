@@ -1,4 +1,4 @@
 .items-container {
-  justify-content: space-between;
+  justify-content: center;
   display: flex;
 }
