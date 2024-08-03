@@ -52,6 +52,29 @@ export class HoodiesComponent  implements OnInit {
     }
   ]
 
+  images6m= [
+    {
+      imageSrc:
+        '../../assets/img/hoodies/slide/1m.jpg',
+      imageAlt: 'kemistry_hoodies1',
+    },
+    {
+      imageSrc:
+        '../../assets/img/hoodies/slide/2m.jpg',
+      imageAlt: 'kemistry_hoodies2',
+    },
+    {
+      imageSrc:
+        '../../assets/img/hoodies/slide/3m.jpg',
+      imageAlt: 'kemistry_hoodies3',
+    },
+    {
+      imageSrc:
+        '../../assets/img/hoodies/slide/4m.jpg',
+      imageAlt: 'kemistry_hoodies4',
+    }
+  ]
+
   images4 = [
     {
       imageSrc:

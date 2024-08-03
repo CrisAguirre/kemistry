@@ -131,7 +131,12 @@
   <!--text-slide-->
   <app-head-slide></app-head-slide>
   <!-- Carrusel -->
-  <app-carousel [images]="images6" [autoSlide]="true"></app-carousel>
+  <div class="d-none d-md-block">
+    <app-carousel [images]="images6" [autoSlide]="true"></app-carousel>
+  </div>
+  <div class="d-md-none">
+    <app-carousel [images]="images6m" [autoSlide]="true"></app-carousel>
+  </div>
   <div class="b-example-divider"></div>
 
 <!-- Banner main -->
