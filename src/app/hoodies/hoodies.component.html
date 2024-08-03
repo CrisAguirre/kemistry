@@ -127,106 +127,156 @@
         </ul>
       </nav>
     </div>
-</nav>
-<!--text-slide-->
-<app-head-slide></app-head-slide>
+  </nav>
+  <!--text-slide-->
+  <app-head-slide></app-head-slide>
+  <!-- Carrusel -->
+  <app-carousel [images]="images6" [autoSlide]="true"></app-carousel>
+  <div class="b-example-divider"></div>
+
 <!-- Banner main -->
-<img class="container-fluid p-0" src="../../assets/img/slide/3.jpg">
-<!-- Banner1 + Texto -->
-<div class="container">
-    <div class="container-fluid row flex-lg-row-reverse align-items-center justify-content-center g-3 mb-4 mt-0 me-0 pe-0 hero px-4">
-     <div class="container col-10 col-sm-8 col-lg-6 center-important">
-       <img src="../../assets/img/hoodies/0.jpg" loading="lazy">
-     </div>
-     <div class="col-lg-6 center-important p-4">
-       <!--<div class="col m-2">
-             <div class="container center-important">
-               <img src="../../assets/img/var/logo-ban.png" loading="lazy">
-             </div>         
-       </div>-->
-    <p class="lead">Nuestros busos Hoodies están elaborados con acabados precisos en tela algodón perchado Monaco, de muy buena calidad y durablidad.</p>
-    <p class="lead">Cuentan con capucha con forro afelpado (mujer) o liso (hombre), el borde de mangas y cintura esta hecho en tela Reed, suave y resistente, 
-      cuenta con cordón de buen calibre y terminados de ojal y campana de cordón en acero inoxidable.</p>
-       <div class="d-grid pb-5 gap-2 d-md-flex justify-content-md-start">
-         <a type="button" class="btn btn-primary btn-lg px-4 me-md-2" href="./shop">eShop</a>
-       </div>
-     </div>
-   </div>
- </div>
-<!-- Carrusel -->
-<app-carousel [images]="images3" [autoSlide]="true"></app-carousel>
+<!-- 
+  <div class="card mb-3">
+    <div id="trailer" class="section d-flex justify-content-center embed-responsive embed-responsive-6by9">
+      <video class="embed-responsive-item" controls autoplay loop muted>
+            <source src="../../assets/img/hoodies/050fb12d3e6f4ac2866a0898f12445b9.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <button class="btn btn-primary fs-4 end-buy" routerLink="/shop">Ir a eShop</button>
+    </div>
+    <!-- <iframe class="embed-responsive-item" src="../../assets/img/hoodies/050fb12d3e6f4ac2866a0898f12445b9.mp4" allowfullscreen></iframe> -->
+    <!-- <video src="../../assets/img/hoodies/050fb12d3e6f4ac2866a0898f12445b9.mp4" class="object-fit-contain" autoplay>
+      <button class="btn btn-primary fs-4 end-buy" routerLink="/shop">Ir a eShop</button>
+    </video> -->
+    <!-- <img src="../../assets/img/hoodies/hoodie_base.jpg" class="card-img-top" alt="hoodie_base"> ->
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div> -->
+
 <!--Productos y Precios-->
-<div class="container" id="prices">
-    <div class="pricing-header p-1 pb-md-1 text-center mt-4 px-4" >
-      <h1 class="display-4 fw-normal">Diseño Único en el Mercado</h1>
-      <p class="fs-5 text-muted ms-1 me-1">Conoce nuestro diseño exclusivo de busos Hoodies, el cual cuenta con
-         una costura frontal entre el bolsillo y el hombro, diferenciándolo de otros modelos del mercado.</p>
-    </div>
-    <div class="row row-cols-1 row-cols-md-2 text-center p-3 pb-4 pricing-margin ">
-        <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm m-1">
-                <div class="card-header py-3 text-bg-primary border-primary">
-                    <h4 class="my-0 fw-normal">Hoodie Hombre</h4>
-                </div>
-                <div class="card-body">
-                  <div class="col m-2">
-                    <div class="container center-important">
-                        <app-carousel [images]="images4" [autoSlide]="true"></app-carousel>
-                        <!--<img src="../../assets/img/store/7.png" loading="lazy">-->
-                    </div>  
-                  </div>
-                    <h1 class="card-title pricing-card-title">$100.000<small class="text-muted fw-light">/mco</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>Buso en algodón perchado Monaco</li>
-                        <li>Capucha con forro liso</li>
-                        <li>Mangas y cintura en tela Reed</li>
-                        <li>Cordón de buen calibre y resistente</li>
-                        <li>Ojal y campana de cordón en acero inoxidable</li>
-                        <li>Costura frontal bolsillo - hombro</li>
-                    </ul>
-                    <!--<a type="button" class="w-100 btn btn-lg btn-outline-primary" routerLink="/hoodies">Detalles</a>-->
+      <div class="container" id="prices">
+        <div class="pricing-header p-1 pb-md-1 text-center mt-4 px-4" >
+          <h1 class="display-4 fw-normal">Buso Hoodie</h1>
+          <p class="fs-5 text-muted ms-1 me-1">Buso en algodón perchado Mónaco, es una tela suave, gruesa y duradera, cuenta con capucha con forro liso o afelpado, mangas y cintura en tela Riv (resortado o algodón), cordón de gran calibre con ojal y campana en acero inoxidable.</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 text-center p-3 pb-4 pricing-margin ">
+            <div data-aos="fade" class="col">
+                <div class="card mb-4 rounded-3 shadow-sm m-1">
+                    <div class="card-header py-3 text-bg-primary border-primary">
+                        <h4 class="my-0 fw-normal">Hoodie Hombre</h4>
+                    </div>
+                    <div class="card-body">
+                      <div class="col m-2">
+                        <div class="container center-important">
+                            <app-carousel [images]="images4" [autoSlide]="true"></app-carousel>
+                            <!--<img src="../../assets/img/store/7.png" loading="lazy">-->
+                        </div>  
+                      </div>
+                        <h1 class="card-title pricing-card-title">$100.000<small class="text-muted fw-light">/mco</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Buso en algodón perchado Monaco</li>
+                            <li>Capucha con forro liso</li>
+                            <li>Mangas y cintura en tela Riv</li>
+                            <li>Cordón Ojal y campana de cordón en acero inoxidable</li>
+                            <li>Costura frontal bolsillo/hombro opcional</li>
+                        </ul>
+                        <!--<a type="button" class="w-100 btn btn-lg btn-outline-primary" routerLink="/hoodies">Detalles</a>-->
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm m-1">
-                <div class="card-header py-3 text-bg-primary border-primary">
-                    <h4 class="my-0 fw-normal">Hoodie Mujer</h4>
-                </div>
-                <div class="card-body">
-                  <div class="col m-2">
-                    <div class="container center-important">
-                        <app-carousel [images]="images5" [autoSlide]="true"></app-carousel>
-                      <!--<img src="../../assets/img/store/4.png" loading="lazy">-->
-                    </div>  
-                  </div>
-                    <h1 class="card-title pricing-card-title">$100.000<small class="text-muted fw-light">/mco</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li>Buso en algodón perchado Monaco</li>
-                        <li>Capucha con forro afelpado</li>
-                        <li>Mangas y cintura en tela Reed</li>
-                        <li>Cordón de buen calibre y resistente</li>
-                        <li>Ojal y campana de cordón en acero inoxidable</li>
-                        <li>Costura frontal bolsillo - hombro</li>
-                    </ul>
-                    <!--<a type="button" class="w-100 btn btn-lg btn-outline-primary" routerLink="/raglan">Detalles</a>-->
+            <div data-aos="fade" class="col">
+                <div class="card mb-4 rounded-3 shadow-sm m-1">
+                    <div class="card-header py-3 text-bg-primary border-primary">
+                        <h4 class="my-0 fw-normal">Hoodie Mujer</h4>
+                    </div>
+                    <div class="card-body">
+                      <div class="col m-2">
+                        <div class="container center-important">
+                            <app-carousel [images]="images5" [autoSlide]="true"></app-carousel>
+                          <!--<img src="../../assets/img/store/4.png" loading="lazy">-->
+                        </div>  
+                      </div>
+                        <h1 class="card-title pricing-card-title">$100.000<small class="text-muted fw-light">/mco</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Buso en algodón perchado Monaco</li>
+                            <li>Capucha con forro afelpado</li>
+                            <li>Mangas y cintura en tela Riv</li>
+                            <li>Cordón Ojal y campana de cordón en acero inoxidable</li>
+                            <li>Costura frontal bolsillo/hombro opcional</li>
+                        </ul>
+                        <!--<a type="button" class="w-100 btn btn-lg btn-outline-primary" routerLink="/raglan">Detalles</a>-->
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+  <!-- Collage  Hoodies-->
+  <div class="container mt-4">
+    <div class="card-group">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Banner1 + Texto -->
+  <!-- <div class="container">
+    <div class="container-fluid row flex-lg-row-reverse align-items-center justify-content-center g-3 mb-4 mt-0 me-0 pe-0 hero px-4">
+      <div class="container col-10 col-sm-8 col-lg-6 center-important">
+        <img src="../../assets/img/hoodies/0.jpg" loading="lazy">
+      </div>
+      <div class="col-lg-6 center-important p-4">
+        <div class="col m-2">
+          <div class="container center-important">
+            <img src="../../assets/img/var/logo-ban.png" loading="lazy">
+          </div>         
+        </div>
+        <p class="lead">Nuestros busos Hoodies están elaborados con acabados precisos en tela algodón perchado Monaco, de muy buena calidad y durablidad.</p>
+        <p class="lead">Cuentan con capucha con forro afelpado (mujer) o liso (hombre), el borde de mangas y cintura esta hecho en tela Reed, suave y resistente, 
+          cuenta con cordón de buen calibre y terminados de ojal y campana de cordón en acero inoxidable.</p>
+          <div class="d-grid pb-5 gap-2 d-md-flex justify-content-md-start">
+            <a type="button" class="btn btn-primary btn-lg px-4 me-md-2" href="./shop">eShop</a>
+          </div>
+        </div>
+      </div>
+    </div> -->
 <!-- Boton ir a eshop -->
-<div class="container">
-  <div class="pt-2 pb-3 border-bottom container">
-    <div id="empty-item" class="d-flex justify-content-center align-items-center">
-      <div class="d-flex align-items-center justify-content-start p-2 flex-column">
-        <h2 class="mb-3 mt-1">Agrega productos a tu pedido!</h2>
-        <button class="btn btn-primary fs-4 end-buy" routerLink="/shop">Ir a eShop</button>
+<div class="container-fluid p-0">
+  <div class="pt-2 pb-3 border-bottom" style="background-image: url('../../assets/img/var/ban-2.jpg'); background-size: cover; background-position: center; width: 100vw; height: 50vh;">
+    <div class="container h-100">
+      <div id="empty-item" class="d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-center h-100">
+        <div class="d-flex align-items-center justify-content-center p-2 order-2 order-md-1 text-center text-md-start">
+          <h2 class="mb-0 mobile-text text-dark text-md-white">¡Agrega productos a tu pedido!</h2>
+        </div>
+        <div class="d-flex align-items-center justify-content-center p-2 order-1 order-md-2 mobile-spacing">
+          <button class="btn btn-primary fs-4 end-buy" routerLink="/shop">Ir a eShop</button>
+        </div>
       </div>
     </div>
   </div>
 </div>
-<!-- Banner 4 -->
-<img class="img-banner container-fluid m-0 p-0" src="../../assets/img/var/ban-2.jpg">
 <!-- Footer -->
 <app-footer></app-footer>
