@@ -131,7 +131,12 @@
 <!--text-slide-->
 <app-head-slide></app-head-slide>
 <!-- Carrusel -->
-<app-carousel [images]="images" [autoSlide]="true"></app-carousel>
+<div class="d-none d-md-block">
+  <app-carousel [images]="images" [autoSlide]="true"></app-carousel>
+</div>
+<div class="d-md-none">
+  <app-carousel [images]="imagesm" [autoSlide]="true"></app-carousel>
+</div>
 <div class="b-example-divider"></div>
 <!-- grilla -->
 <div class="pricing-header p-1 pb-md-1 text-center mt-4 px-4" >

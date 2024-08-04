@@ -79,5 +79,32 @@ export class LandingComponent implements OnInit {
       imageAlt: 'kemistry5',
     }
   ]
+  imagesm = [
+    {
+      imageSrc:
+        '../../assets/img/slide/1m.jpg',
+      imageAlt: 'kemistry1',
+    },
+    {
+      imageSrc:
+        '../../assets/img/slide/2m.jpg',
+      imageAlt: 'kemistry2',
+    },
+    {
+      imageSrc:
+        '../../assets/img/slide/3m.jpg',
+      imageAlt: 'kemistry3',
+    },
+    {
+      imageSrc:
+        '../../assets/img/slide/4m.jpg',
+      imageAlt: 'kemistry4',
+    },
+    {
+      imageSrc:
+        '../../assets/img/slide/5m.jpg',
+      imageAlt: 'kemistry5',
+    }
+  ]
 
 }
