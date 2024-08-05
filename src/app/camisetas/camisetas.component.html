@@ -130,8 +130,14 @@
 </nav>
 <!--text-slide-->
 <app-head-slide></app-head-slide>
-<!-- Banner main -->
-<img class="container-fluid p-0" src="../../assets/img/slide/5.jpg">
+<!-- Carrusel -->
+<div class="d-none d-md-block">
+  <app-carousel [images]="images9" [autoSlide]="true"></app-carousel>
+</div>
+<div class="d-md-none">
+  <app-carousel [images]="images9m" [autoSlide]="true"></app-carousel>
+</div>
+<div class="b-example-divider"></div>
 <!-- Boton ir a eshop -->
 <div class="container-fluid p-0">
   <div class="pt-2 pb-3 border-bottom" style="background-image: url('../../assets/img/var/ban-2.jpg'); background-size: cover; background-position: center; width: 100vw; height: 50vh;">

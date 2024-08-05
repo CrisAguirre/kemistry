@@ -6,69 +6,49 @@ import { Component } from '@angular/core';
   styleUrls: ['./raglan.component.css']
 })
 export class RaglanComponent {
-  images2 = [
+  images7 = [
     {
       imageSrc:
-        '../../assets/img/slide2/1.jpg',
+        '../../assets/img/raglan/slide/1.jpg',
       imageAlt: 'kemistry1',
     },
     {
       imageSrc:
-        '../../assets/img/slide2/2.jpg',
+        '../../assets/img/raglan/slide/2.jpg',
       imageAlt: 'kemistry2',
     },
     {
       imageSrc:
-        '../../assets/img/slide2/3.jpg',
+        '../../assets/img/raglan/slide/3.jpg',
       imageAlt: 'kemistry3',
     },
     {
       imageSrc:
-        '../../assets/img/slide2/4.jpg',
+        '../../assets/img/raglan/slide/4.jpg',
+      imageAlt: 'kemistry4',
+    },
+  ]
+  images7m = [
+    {
+      imageSrc:
+        '../../assets/img/raglan/slide/1m.jpg',
+      imageAlt: 'kemistry1',
+    },
+    {
+      imageSrc:
+        '../../assets/img/raglan/slide/2m.jpg',
+      imageAlt: 'kemistry2',
+    },
+    {
+      imageSrc:
+        '../../assets/img/raglan/slide/3m.jpg',
+      imageAlt: 'kemistry3',
+    },
+    {
+      imageSrc:
+        '../../assets/img/raglan/slide/4m.jpg',
       imageAlt: 'kemistry4',
     },
   ]
 
-  images = [
-    {
-      imageSrc:
-        '../../assets/img/slide/1.jpg',
-      imageAlt: 'kemistry1',
-    },
-    {
-      imageSrc:
-        '../../assets/img/slide/2.jpg',
-      imageAlt: 'kemistry2',
-    },
-    {
-      imageSrc:
-        '../../assets/img/slide/3.jpg',
-      imageAlt: 'kemistry3',
-    },
-    {
-      imageSrc:
-        '../../assets/img/slide/4.jpg',
-      imageAlt: 'kemistry4',
-    },
-    {
-      imageSrc:
-        '../../assets/img/slide/5.jpg',
-      imageAlt: 'kemistry5',
-    },
-    {
-      imageSrc:
-        '../../assets/img/slide/6.jpg',
-      imageAlt: 'kemistry6',
-    },
-    {
-      imageSrc:
-        '../../assets/img/slide/7.jpg',
-      imageAlt: 'kemistry7',
-    },
-    {
-      imageSrc:
-        '../../assets/img/slide/8.jpg',
-      imageAlt: 'kemistry8',
-    },
-  ]
 }

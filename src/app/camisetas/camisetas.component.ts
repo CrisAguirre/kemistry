@@ -6,69 +6,48 @@ import { Component } from '@angular/core';
   styleUrls: ['./camisetas.component.css']
 })
 export class CamisetasComponent {
-  images2 = [
+  images9= [
     {
       imageSrc:
-        '../../assets/img/slide2/1.jpg',
-      imageAlt: 'kemistry1',
+        '../../assets/img/camisetas/slide/1.jpg',
+      imageAlt: 'kemistry_hoodies1',
     },
     {
       imageSrc:
-        '../../assets/img/slide2/2.jpg',
-      imageAlt: 'kemistry2',
+        '../../assets/img/camisetas/slide/2.jpg',
+      imageAlt: 'kemistry_hoodies2',
     },
     {
       imageSrc:
-        '../../assets/img/slide2/3.jpg',
-      imageAlt: 'kemistry3',
+        '../../assets/img/camisetas/slide/3.jpg',
+      imageAlt: 'kemistry_hoodies3',
     },
     {
       imageSrc:
-        '../../assets/img/slide2/4.jpg',
-      imageAlt: 'kemistry4',
-    },
+        '../../assets/img/camisetas/slide/4.jpg',
+      imageAlt: 'kemistry_hoodies4',
+    }
   ]
-
-  images = [
+  images9m= [
     {
       imageSrc:
-        '../../assets/img/slide/1.jpg',
-      imageAlt: 'kemistry1',
+        '../../assets/img/camisetas/slide/1m.jpg',
+      imageAlt: 'kemistry_hoodies1',
     },
     {
       imageSrc:
-        '../../assets/img/slide/2.jpg',
-      imageAlt: 'kemistry2',
+        '../../assets/img/camisetas/slide/2m.jpg',
+      imageAlt: 'kemistry_hoodies2',
     },
     {
       imageSrc:
-        '../../assets/img/slide/3.jpg',
-      imageAlt: 'kemistry3',
+        '../../assets/img/camisetas/slide/3m.jpg',
+      imageAlt: 'kemistry_hoodies3',
     },
     {
       imageSrc:
-        '../../assets/img/slide/4.jpg',
-      imageAlt: 'kemistry4',
-    },
-    {
-      imageSrc:
-        '../../assets/img/slide/5.jpg',
-      imageAlt: 'kemistry5',
-    },
-    {
-      imageSrc:
-        '../../assets/img/slide/6.jpg',
-      imageAlt: 'kemistry6',
-    },
-    {
-      imageSrc:
-        '../../assets/img/slide/7.jpg',
-      imageAlt: 'kemistry7',
-    },
-    {
-      imageSrc:
-        '../../assets/img/slide/8.jpg',
-      imageAlt: 'kemistry8',
-    },
+        '../../assets/img/camisetas/slide/4m.jpg',
+      imageAlt: 'kemistry_hoodies4',
+    }
   ]
 }
