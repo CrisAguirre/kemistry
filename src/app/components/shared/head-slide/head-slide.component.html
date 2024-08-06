@@ -1,22 +1,37 @@
 <p class="text-container" id="top"></p>
-    <div id="carouselExample" class="carousel slide text-container carousel-fade" data-bs-ride="carousel" data-bs-interval="2000">
-        <div class="carousel-inner">
-          <div class="carousel-item embed-responsive-item active">
-            <img pageScroll routerLink="/" fragment="prices" src="../../../../assets/img/textslides/banner1.jpg" class="d-block w-100" alt="1">
-          </div>
-          <div class="carousel-item embed-responsive-item">
-            <img routerLink="/estampados" src="../../../../assets/img/textslides/banner2.jpg" class="d-block w-100" alt="2">
-          </div>
-          <div class="carousel-item embed-responsive-item">
-            <img routerLink="/shop" src="../../../../assets/img/textslides/banner3.jpg" class="d-block w-100" alt="3">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>    
+<div id="carouselExample" class="carousel slide text-container carousel-fade" data-bs-ride="carousel" data-bs-interval="2500">
+  <div class="carousel-inner">
+    <div class="carousel-item embed-responsive-item active">
+      <img pageScroll routerLink="/" fragment="prices" 
+           src="../../../../assets/img/textslides/banner1.jpg" 
+           class="d-block w-100 d-none d-md-block" alt="1">
+      <img pageScroll routerLink="/" fragment="prices" 
+           src="../../../../assets/img/textslides/banner1m.jpg" 
+           class="d-block w-100 d-md-none" alt="1 mobile">
+    </div>
+    <div class="carousel-item embed-responsive-item">
+      <img routerLink="/estampados" 
+           src="../../../../assets/img/textslides/banner2.jpg" 
+           class="d-block w-100 d-none d-md-block" alt="2">
+      <img routerLink="/estampados" 
+           src="../../../../assets/img/textslides/banner2m.jpg" 
+           class="d-block w-100 d-md-none" alt="2 mobile">
+    </div>
+    <div class="carousel-item embed-responsive-item">
+      <img routerLink="/shop" 
+           src="../../../../assets/img/textslides/banner3.jpg" 
+           class="d-block w-100 d-none d-md-block" alt="3">
+      <img routerLink="/shop" 
+           src="../../../../assets/img/textslides/banner3m.jpg" 
+           class="d-block w-100 d-md-none" alt="3 mobile">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>    
