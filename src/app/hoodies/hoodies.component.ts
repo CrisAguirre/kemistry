@@ -44,12 +44,8 @@ export class HoodiesComponent  implements OnInit {
       imageSrc:
         '../../assets/img/hoodies/slide/3.jpg',
       imageAlt: 'kemistry_hoodies3',
-    },
-    {
-      imageSrc:
-        '../../assets/img/hoodies/slide/4.jpg',
-      imageAlt: 'kemistry_hoodies4',
     }
+      
   ]
 
   images6m= [
@@ -68,11 +64,7 @@ export class HoodiesComponent  implements OnInit {
         '../../assets/img/hoodies/slide/3m.jpg',
       imageAlt: 'kemistry_hoodies3',
     },
-    {
-      imageSrc:
-        '../../assets/img/hoodies/slide/4m.jpg',
-      imageAlt: 'kemistry_hoodies4',
-    }
+
   ]
 
   images4 = [
