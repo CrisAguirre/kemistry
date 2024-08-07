@@ -15,12 +15,29 @@ export class EstampadosComponent implements OnInit, AfterViewInit {
   playVideos() {
     const videos = document.querySelectorAll('video');
     videos.forEach(video => {
-      video.play().catch(error => {
-        console.log("Auto-play was prevented");
-        // Puedes mostrar un botón de play aquí si lo deseas
+      video.muted = true;
+      video.playsInline = true;
+      
+      const playVideo = () => {
+        video.play().catch(error => {
+          console.log("Auto-play was prevented", error);
+        });
+      };
+
+      video.addEventListener('loadedmetadata', playVideo);
+      video.addEventListener('canplay', playVideo);
+      
+      // Reiniciar el video cuando termine
+      video.addEventListener('ended', () => {
+        video.currentTime = 0;
+        playVideo();
       });
+
+      // Intenta reproducir inmediatamente
+      playVideo();
     });
   }
+  
   images8= [
     {
       imageSrc:
