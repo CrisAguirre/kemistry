@@ -1,11 +1,27 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 
 @Component({
   selector: 'app-raglan',
   templateUrl: './raglan.component.html',
   styleUrls: ['./raglan.component.css']
 })
-export class RaglanComponent {
+export class RaglanComponent implements OnInit, AfterViewInit {
+  ngOnInit() {}
+
+  ngAfterViewInit() {
+    this.playVideos();
+  }
+
+  playVideos() {
+    const videos = document.querySelectorAll('video');
+    videos.forEach(video => {
+      video.play().catch(error => {
+        console.log("Auto-play was prevented");
+        // Puedes mostrar un botón de play aquí si lo deseas
+      });
+    });
+  }
+
   images7 = [
     {
       imageSrc:

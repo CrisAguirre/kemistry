@@ -1,11 +1,26 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 
 @Component({
   selector: 'app-estampados',
   templateUrl: './estampados.component.html',
   styleUrls: ['./estampados.component.css']
 })
-export class EstampadosComponent {
+export class EstampadosComponent implements OnInit, AfterViewInit {
+  ngOnInit() {}
+
+  ngAfterViewInit() {
+    this.playVideos();
+  }
+
+  playVideos() {
+    const videos = document.querySelectorAll('video');
+    videos.forEach(video => {
+      video.play().catch(error => {
+        console.log("Auto-play was prevented");
+        // Puedes mostrar un botón de play aquí si lo deseas
+      });
+    });
+  }
   images8= [
     {
       imageSrc:

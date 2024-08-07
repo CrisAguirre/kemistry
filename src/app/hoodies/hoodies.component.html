@@ -139,27 +139,22 @@
   </div>
   <div class="b-example-divider"></div>
 
-<!-- Banner main -->
-<!-- 
-  <div class="card mb-3">
-    <div id="trailer" class="section d-flex justify-content-center embed-responsive embed-responsive-6by9">
-      <video class="embed-responsive-item" controls autoplay loop muted>
-            <source src="../../assets/img/hoodies/050fb12d3e6f4ac2866a0898f12445b9.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <button class="btn btn-primary fs-4 end-buy" routerLink="/shop">Ir a eShop</button>
-    </div>
-    <!-- <iframe class="embed-responsive-item" src="../../assets/img/hoodies/050fb12d3e6f4ac2866a0898f12445b9.mp4" allowfullscreen></iframe> -->
-    <!-- <video src="../../assets/img/hoodies/050fb12d3e6f4ac2866a0898f12445b9.mp4" class="object-fit-contain" autoplay>
-      <button class="btn btn-primary fs-4 end-buy" routerLink="/shop">Ir a eShop</button>
-    </video> -->
-    <!-- <img src="../../assets/img/hoodies/hoodie_base.jpg" class="card-img-top" alt="hoodie_base"> ->
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-    </div>
-  </div> -->
+<!--Video Summersale-->
+<div class="container-fluid p-0 mt-0 mb-0 position-relative">
+  <video class="w-100 d-none d-md-block" autoplay loop muted playsinline preload="auto">
+    <source src="../../assets/img/hoodies/050fb12d3e6f4ac2866a0898f12445b9.mp4" type="video/mp4">
+    Tu navegador no soporta el elemento de video.
+  </video>
+  <video class="w-100 d-md-none" style="aspect-ratio: 1/1; object-fit: cover;" autoplay loop muted playsinline preload="auto">
+    <source src="../../assets/img/hoodies/050fb12d3e6f4ac2866a0898f12445b9.mp4" type="video/mp4">
+    Tu navegador no soporta el elemento de video.
+  </video>
+  <div class="position-absolute top-50 start-50 translate-middle text-center">
+    <h2 class="text-white mb-2" style="font-size: 2.5rem; font-weight: bold;">DESCUENTOS DE VERANO</h2>
+    <p class="text-white mb-3" style="font-size: 1.5rem;">Hasta el 60%</p>
+    <button class="btn btn-primary fs-4 end-buy" routerLink="/shop">Ir a eShop</button>
+  </div>
+</div>
 
 <!--Productos y Precios-->
   <div class="container" id="prices">

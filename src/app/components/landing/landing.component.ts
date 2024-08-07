@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Router, ActivatedRoute, NavigationEnd } from '@angular/router';
 import * as AOS from 'aos';
 
@@ -8,9 +8,23 @@ import * as AOS from 'aos';
   styleUrls: ['./landing.component.css']
 })
 
-export class LandingComponent implements OnInit {
+export class LandingComponent implements OnInit, AfterViewInit {
   constructor( private route: ActivatedRoute, private router: Router ) {}
 
+  ngAfterViewInit() {
+    this.playVideos();
+  }
+
+  playVideos() {
+    const videos = document.querySelectorAll('video');
+    videos.forEach(video => {
+      video.play().catch(error => {
+        console.log("Auto-play was prevented");
+        // Puedes mostrar un botón de play aquí si lo deseas
+      });
+    });
+  }
+  
   onAnchorClick ( ) {
     this.route.fragment.subscribe ( f => {
       const element = document.querySelector ( "#" + f )
