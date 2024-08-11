@@ -16,6 +16,7 @@ export class ShopService {
       identifier: 'Hoodie Hombre Gris',
       img: '../../assets/img/store/55.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Hoodie Hombre Azul Marino',
@@ -26,6 +27,7 @@ export class ShopService {
       identifier: 'Hoodie Hombre Azul Marino',
       img: '../../assets/img/store/6.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Hoodie Hombre Negro',
@@ -36,6 +38,7 @@ export class ShopService {
       identifier: 'Hoodie Hombre Negro',
       img: '../../assets/img/store/7.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Hoodie Hombre Blanco',
@@ -46,6 +49,7 @@ export class ShopService {
       identifier: 'Hoodie Hombre Blanco',
       img: '../../assets/img/store/8.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Hoodie Mujer Azul Marino',
@@ -56,6 +60,7 @@ export class ShopService {
       identifier: 'Hoodie Mujer Azul Marino',
       img: '../../assets/img/store/1.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Hoodie Mujer Gris',
@@ -66,6 +71,7 @@ export class ShopService {
       identifier: 'Hoodie Mujer Gris',
       img: '../../assets/img/store/2.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Hoodie Mujer Negro',
@@ -76,6 +82,7 @@ export class ShopService {
       identifier: 'Hoodie Mujer Negro',
       img: '../../assets/img/store/3.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Hoodie Mujer Blanco',
@@ -86,6 +93,7 @@ export class ShopService {
       identifier: 'Hoodie Mujer Blanco',
       img: '../../assets/img/store/4.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camisa Raglan Mujer Amarillo-Blanco',
@@ -96,6 +104,7 @@ export class ShopService {
       identifier: 'Camisa Raglan Mujer Amarillo-Blanco',
       img: '../../assets/img/store/9.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camisa Raglan Mujer Azul-Blanco',
@@ -106,6 +115,7 @@ export class ShopService {
       identifier: 'Camisa Raglan Mujer Azul-Blanco',
       img: '../../assets/img/store/10.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camisa Raglan Mujer Gris Blanco',
@@ -116,6 +126,7 @@ export class ShopService {
       identifier: 'Camisa Raglan Mujer Gris Blanco',
       img: '../../assets/img/store/11.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camisa Raglan Mujer Negro-Blanco',
@@ -126,6 +137,7 @@ export class ShopService {
       identifier: 'Camisa Raglan Mujer Negro-Blanco',
       img: '../../assets/img/store/12.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camisa Raglan Mujer Rojo-Blanco',
@@ -136,6 +148,7 @@ export class ShopService {
       identifier: 'Camisa Raglan Mujer Rojo-Blanco',
       img: '../../assets/img/store/13.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camisa Raglan Mujer Rojo-Negro',
@@ -146,6 +159,7 @@ export class ShopService {
       identifier: 'Camisa Raglan Mujer Rojo-Negro',
       img: '../../assets/img/store/18.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camisa Raglan Mujer Negro-Gris',
@@ -156,6 +170,7 @@ export class ShopService {
       identifier: 'Camisa Raglan Mujer Negro-Gris',
       img: '../../assets/img/store/15.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camisa Raglan Mujer Rojo-Gris',
@@ -166,6 +181,7 @@ export class ShopService {
       identifier: 'Camisa Raglan Mujer Rojo-Gris',
       img: '../../assets/img/store/16.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camisa Raglan Mujer Gris-Negro',
@@ -176,6 +192,7 @@ export class ShopService {
       identifier: 'Camisa Raglan Mujer Gris-Negro',
       img: '../../assets/img/store/17.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camisa Raglan Hombre Gris-Blanco',
@@ -186,6 +203,7 @@ export class ShopService {
       identifier: 'Camisa Raglan Hombre Gris-Blanco',
       img: '../../assets/img/store/19.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camisa Raglan Hombre Azul-Blanco',
@@ -196,6 +214,7 @@ export class ShopService {
       identifier: 'Camisa Raglan Hombre Azul-Blanco',
       img: '../../assets/img/store/20.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camisa Raglan Hombre Negro-Blanco',
@@ -206,6 +225,7 @@ export class ShopService {
       identifier: 'Camisa Raglan Hombre Negro-Blanco',
       img: '../../assets/img/store/21.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camisa Raglan Hombre Rojo-Blanco',
@@ -216,6 +236,7 @@ export class ShopService {
       identifier: 'Camisa Raglan Hombre Rojo-Blanco',
       img: '../../assets/img/store/22.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camisa Raglan Hombre Negro-Gris',
@@ -226,6 +247,7 @@ export class ShopService {
       identifier: 'Camisa Raglan Hombre Negro-Gris',
       img: '../../assets/img/store/24.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camisa Raglan Hombre Rojo-Gris',
@@ -236,6 +258,7 @@ export class ShopService {
       identifier: 'Camisa Raglan Hombre Rojo-Gris',
       img: '../../assets/img/store/25.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camisa Raglan Hombre Gris-Negro',
@@ -246,6 +269,7 @@ export class ShopService {
       identifier: 'Camisa Raglan Hombre Gris-Negro',
       img: '../../assets/img/store/26.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camisa Raglan Hombre Negro-Rojo',
@@ -256,6 +280,7 @@ export class ShopService {
       identifier: 'Camisa Raglan Hombre Negro-Rojo',
       img: '../../assets/img/store/27.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Básica Algodón Mujer Gris',
@@ -266,6 +291,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Mujer Gris',
       img: '../../assets/img/store/28.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Básica Algodón Hombre Gris',
@@ -276,6 +302,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Gris',
       img: '../../assets/img/store/29.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Básica Algodón Mujer Blanca',
@@ -286,6 +313,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Mujer Blanca',
       img: '../../assets/img/store/30.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Básica Algodón Hombre Blanca',
@@ -296,6 +324,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Blanca',
       img: '../../assets/img/store/31.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Básica Algodón Mujer Negra',
@@ -306,6 +335,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Mujer Negra',
       img: '../../assets/img/store/32.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Básica Algodón Hombre Negra',
@@ -316,6 +346,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store/33.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta negra Demon Slayer',
@@ -326,6 +357,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/100-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta negra Demon Slayer',
@@ -336,6 +368,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/101-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta negra Demon Slayer',
@@ -346,6 +379,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/102-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta negra Demon Slayer',
@@ -356,6 +390,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/103-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta negra Demon Slayer',
@@ -366,6 +401,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/104-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta negra Demon Slayer',
@@ -376,6 +412,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/105-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta negra Demon Slayer',
@@ -386,6 +423,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/106-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta negra Demon Slayer',
@@ -396,6 +434,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/107-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta negra Demon Slayer',
@@ -406,6 +445,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/108-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta negra Demon Slayer',
@@ -416,6 +456,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/109-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta negra Demon Slayer',
@@ -426,6 +467,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/110-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta negra Demon Slayer',
@@ -436,6 +478,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/111-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta negra Demon Slayer',
@@ -446,6 +489,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/112-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta negra Demon Slayer',
@@ -456,6 +500,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/113-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta negra Demon Slayer',
@@ -466,6 +511,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/114-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta negra Demon Slayer',
@@ -476,6 +522,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/115-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta negra Demon Slayer',
@@ -486,6 +533,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/116-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta negra Demon Slayer',
@@ -496,6 +544,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/117-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta negra Demon Slayer',
@@ -506,6 +555,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/118-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta negra Demon Slayer',
@@ -516,6 +566,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/119-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Attack on Titan',
@@ -526,6 +577,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/050-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Attack on Titan',
@@ -536,6 +588,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/051-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Attack on Titan',
@@ -546,6 +599,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/052-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Attack on Titan',
@@ -556,6 +610,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/053-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Attack on Titan',
@@ -566,6 +621,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/054-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Attack on Titan',
@@ -576,6 +632,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/055-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Attack on Titan',
@@ -586,6 +643,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/056-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Attack on Titan',
@@ -596,6 +654,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/057-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Attack on Titan',
@@ -606,6 +665,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/058-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Attack on Titan',
@@ -616,6 +676,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/059-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Attack on Titan',
@@ -626,6 +687,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/060-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Attack on Titan',
@@ -636,6 +698,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/061-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Attack on Titan',
@@ -646,6 +709,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/062-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Attack on Titan',
@@ -656,6 +720,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/063-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Attack on Titan',
@@ -666,6 +731,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/064-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Attack on Titan',
@@ -676,6 +742,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/065-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -686,6 +753,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/150-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -696,6 +764,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/151-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -706,6 +775,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/152-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -716,6 +786,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/153-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -726,6 +797,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/154-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -736,6 +808,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/155-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -746,6 +819,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/156-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -756,6 +830,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/157-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -766,6 +841,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/158-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -776,6 +852,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/159-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -786,6 +863,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/160-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -796,6 +874,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/161-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -806,6 +885,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/162-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -816,6 +896,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/163-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -826,6 +907,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/164-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -836,6 +918,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/165-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -846,6 +929,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/166-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -856,6 +940,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/167-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -866,6 +951,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/168-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -876,6 +962,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/169-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -886,6 +973,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/170-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -896,6 +984,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/171-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -906,6 +995,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/172-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Berserk',
@@ -916,6 +1006,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/173-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Evangelion',
@@ -926,6 +1017,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/001-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Evangelion',
@@ -936,6 +1028,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/002-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Evangelion',
@@ -946,6 +1039,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/003-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Evangelion',
@@ -956,6 +1050,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/004-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Evangelion',
@@ -966,6 +1061,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/005-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Evangelion',
@@ -976,6 +1072,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/006-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Evangelion',
@@ -986,6 +1083,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/007-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Evangelion',
@@ -996,6 +1094,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/008-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Evangelion',
@@ -1006,6 +1105,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/009-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Evangelion',
@@ -1016,6 +1116,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/010-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Evangelion',
@@ -1026,6 +1127,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/011-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Evangelion',
@@ -1036,6 +1138,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/012-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Evangelion',
@@ -1046,6 +1149,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/013-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Evangelion',
@@ -1056,6 +1160,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/014-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Evangelion',
@@ -1066,6 +1171,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/015-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Bartman',
@@ -1076,6 +1182,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/200-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Estampada',
@@ -1086,6 +1193,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/201-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Estampada',
@@ -1096,6 +1204,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/202-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Estampada',
@@ -1106,6 +1215,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/203-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Estampada',
@@ -1116,6 +1226,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/204-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Estampada',
@@ -1126,6 +1237,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/205-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Estampada',
@@ -1136,6 +1248,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/206-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Estampada',
@@ -1146,6 +1259,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/207-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Estampada',
@@ -1156,6 +1270,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/208-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Estampada',
@@ -1166,6 +1281,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/209-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Estampada',
@@ -1176,6 +1292,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/210-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Camiseta Estampada',
@@ -1186,6 +1303,7 @@ export class ShopService {
       identifier: 'Camiseta Básica Algodón Hombre Negra',
       img: '../../assets/img/store-prints/211-min.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Estampado personalizado sencillo',
@@ -1196,6 +1314,7 @@ export class ShopService {
       identifier: 'Estampado Sencillo',
       img: '../../assets/img/store/34.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Estampado personalizado doble',
@@ -1206,6 +1325,7 @@ export class ShopService {
       identifier: 'Estampado Doble',
       img: '../../assets/img/store/35.png',
       qty: 1,
+      size: 'M',
     },
     {
       name: 'Estampado personalizado triple',
@@ -1216,6 +1336,7 @@ export class ShopService {
       identifier: 'Estampado Triple',
       img: '../../assets/img/store/36.png',
       qty: 1,
+      size: 'M',
     },
   ];
 

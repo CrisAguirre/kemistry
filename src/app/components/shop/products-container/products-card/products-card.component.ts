@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Product } from '../../../../interfaces/products.interface';
-
+import { Tallas } from 'src/app/constants/sizes';
 @Component({
   selector: 'app-products-card',
   templateUrl: './products-card.component.html',
@@ -11,7 +11,7 @@ import { Product } from '../../../../interfaces/products.interface';
 })
 export class ProductsCardComponent implements OnInit {
   @Input() product!: Product;
-
+  tallas = Tallas;
   @Output() addToCartClick = new EventEmitter<Product>();
 
   onClick(): void {
