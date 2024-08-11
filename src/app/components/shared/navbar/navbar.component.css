@@ -1,33 +1,50 @@
 /*Menu flotante moviles home*/
-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+.botonWS-fixed {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 1000;
+  }
+  
 .botonWS {
-    display: flex;
-    justify-content: right;
-    align-items: right;
-    width: 3rem;    
-    height: 3rem;
-    position: absolute;
-    top: 50rem;
-    right: 2rem;
-    background-color: #32D951; 
-    border: 0;
-    color: white;
-    cursor: pointer;
-    border-radius: 50%;
-}
-/* Se le quita el borde azul cuando se pulsa en Chrome */
-.botonWS:focus {
-    outline: none;
-}
-/* Cuando es pulsado, se quita el translate que lo ocultaba */
-.botonWS:focus + .principal {
-    transform: translateX(0rem);
+display: flex;
+justify-content: center;
+align-items: center;
+width: 50px;
+height: 50px;
+background-color: #25D366; 
+border: 0;
+color: white;
+cursor: pointer;
+border-radius: 50%;
 }
 
+.botonWS img {
+width: 45px;
+height: 45px;
+}
+
+@media (max-width: 767.98px) {
+.botonWS-fixed {
+    bottom: 15px;
+    right: 30px;
+}
+
+.botonWS {
+    width: 40px;
+    height: 40px;
+}
+
+.botonWS img {
+    width: 35px;
+    height: 35px;
+}
+}
+img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
 .botonMenu {
     display: flex;
     justify-content: center;
