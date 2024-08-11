@@ -28,6 +28,7 @@ import { RouterModule } from '@angular/router';
 import { CartButtonComponent } from './components/shared/cart-button/cart-button.component';
 import { MobileMenuComponent } from './components/shared/mobile-menu/mobile-menu.component';
 import { GoTopComponent } from './components/shared/go-top/go-top.component';
+import { WhatsappButtonComponent } from './components/shared/whatsapp-button/whatsapp-button.component';
 // import  localeEsMX from '@angular/common/locales/es-MX'
 // import { registerLocaleData } from '@angular/common';
 // registerLocaleData(localeEsMX);
@@ -53,6 +54,7 @@ import { GoTopComponent } from './components/shared/go-top/go-top.component';
     CartButtonComponent,
     MobileMenuComponent,
     GoTopComponent,
+    WhatsappButtonComponent,
   ],
   imports: [
     AppRoutingModule,
