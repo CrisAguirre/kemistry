@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable, BehaviorSubject } from 'rxjs';
 import { Product } from "../interfaces/products.interface";
+import { NotificationService } from './notification.service';
 
 @Injectable({
   providedIn: 'root'
@@ -8,7 +9,7 @@ import { Product } from "../interfaces/products.interface";
 
 export class CheckoutService {
     products: Product[] = [];
-
+    constructor(private notificationService: NotificationService) {}
     private cartSubject = new BehaviorSubject<Product[]>([]);
     private totalSubject = new BehaviorSubject<number>(0);
     private quantitySubject = new BehaviorSubject<number>(0);
@@ -36,6 +37,7 @@ export class CheckoutService {
       this.cartSubject.next([]);
       this.totalSubject.next(0);
       this.quantitySubject.next(0);
+      this.notificationService.showNotification('El carrito de compras está vacío');
     }
 
     getDiscount(): number {

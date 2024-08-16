@@ -95,6 +95,13 @@ nav.principal a:hover {
     text-decoration: none;
     background-color: #0D6EFD;
 }
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999; /* Un valor alto, pero menor que el de la notificación */
+  }
 
 @media (min-width: 100px) and (max-width: 1000px){
     .navbar-expand-lg {

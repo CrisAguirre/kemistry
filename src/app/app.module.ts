@@ -29,6 +29,8 @@ import { CartButtonComponent } from './components/shared/cart-button/cart-button
 import { MobileMenuComponent } from './components/shared/mobile-menu/mobile-menu.component';
 import { GoTopComponent } from './components/shared/go-top/go-top.component';
 import { WhatsappButtonComponent } from './components/shared/whatsapp-button/whatsapp-button.component';
+import { NotificationService } from './services/notification.service';
+import { NotificationComponent } from './components/shared/notification/notification.component';
 // import  localeEsMX from '@angular/common/locales/es-MX'
 // import { registerLocaleData } from '@angular/common';
 // registerLocaleData(localeEsMX);
@@ -55,6 +57,7 @@ import { WhatsappButtonComponent } from './components/shared/whatsapp-button/wha
     MobileMenuComponent,
     GoTopComponent,
     WhatsappButtonComponent,
+    NotificationComponent,
   ],
   imports: [
     AppRoutingModule,
@@ -67,7 +70,7 @@ import { WhatsappButtonComponent } from './components/shared/whatsapp-button/wha
     ReactiveFormsModule,
     RouterModule,
   ],
-  providers: [ShopService],
+  providers: [ShopService, NotificationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

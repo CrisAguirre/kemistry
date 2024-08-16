@@ -1,0 +1,69 @@
+  .notification-container {
+    position: fixed;
+    top: 80px; /* Ajusta este valor según la altura de tu navbar */
+    right: 20px;
+    padding: 20px;
+    z-index: 10000; /* Un valor muy alto para asegurar que esté por encima de todo */
+    pointer-events: none;
+  }
+  
+  .notification-toast {
+    background-color: #3498db; /* Color más azulado */
+    color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.3s, transform 0.3s;
+    max-width: 300px;
+  }
+  
+  .notification-toast.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .notification-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .notification-content i {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 10px;
+  }
+  
+  @keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    10%, 90% { opacity: 1; }
+  }
+  
+  .notification-toast.show {
+    animation: fadeInOut 3s ease-in-out;
+  }
+  .close-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 10px;
+  pointer-events: auto; /* Asegura que el botón sea interactivo */
+}

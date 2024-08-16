@@ -67,6 +67,6 @@ export class CheckoutComponent implements OnInit {
   }
 
   vaciarCarrito(): void {
-    this.checkoutService.vaciarCarrito();
+    this.checkoutService.resetCart();
   }
 }

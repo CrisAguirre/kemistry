@@ -12,6 +12,10 @@
 .text-container {
     margin-top: 42pt;
 }
+.head-slide {
+  position: relative;
+  z-index: 1; /* Un valor bajo para que esté debajo del navbar y las notificaciones */
+}
 @media (max-width: 1000px){
   .text-container {
     margin-top: 30pt;
