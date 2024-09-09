@@ -1,4 +1,6 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Router, ActivatedRoute, NavigationEnd } from '@angular/router';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-camisetas',
@@ -6,8 +8,19 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
   styleUrls: ['./camisetas.component.css']
 })
 export class CamisetasComponent implements OnInit, AfterViewInit {
-  ngOnInit() {}
-  
+  constructor( private route: ActivatedRoute, private router: Router ) {}
+  ngOnInit() {
+    AOS.init();
+    this.router.events.subscribe(s => {
+      if (s instanceof NavigationEnd) {
+        const tree = this.router.parseUrl(this.router.url);
+        if (tree.fragment) {
+          const element = document.querySelector("#" + tree.fragment);
+          if (element) { element.scrollIntoView(true); }
+        }
+      }
+    });
+  }
   ngAfterViewInit() {
     this.playVideos();
   }
@@ -81,5 +94,39 @@ export class CamisetasComponent implements OnInit, AfterViewInit {
         '../../assets/img/camisetas/slide/4m.jpg',
       imageAlt: 'kemistry_hoodies4',
     }
+  ]
+  images4 = [
+    {
+      imageSrc:
+        '../../assets/img/store/33.png',
+      imageAlt: 'kemistry1',
+    },
+    {
+      imageSrc:
+        '../../assets/img/store/31.png',
+      imageAlt: 'kemistry1',
+    },
+    {
+      imageSrc:
+        '../../assets/img/store/29.png',
+      imageAlt: 'kemistry1',
+    },
+  ]
+  images5 = [
+    {
+      imageSrc:
+        '../../assets/img/store/32.png',
+      imageAlt: 'kemistry1',
+    },
+    {
+      imageSrc:
+        '../../assets/img/store/30.png',
+      imageAlt: 'kemistry1',
+    },
+    {
+      imageSrc:
+        '../../assets/img/store/28.png',
+      imageAlt: 'kemistry1',
+    },
   ]
 }
