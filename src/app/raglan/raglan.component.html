@@ -150,23 +150,148 @@
     <button class="btn btn-primary end-buy" routerLink="/shop">Ir a eShop</button>
   </div>
 </div>
-<!-- Boton ir a eshop
-<div class="container-fluid p-0">
-  <div class="pt-2 pb-3 border-bottom" style="background-image: url('../../assets/img/var/ban-2.jpg'); background-size: cover; background-position: center; width: 100vw; height: 50vh;">
-    <div class="container h-100">
-      <div id="empty-item" class="d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-center h-100">
-        <div class="d-flex align-items-center justify-content-center p-2 order-2 order-md-1 text-center text-md-start">
-          <h2 class="mb-0 mobile-text text-dark text-md-white">¡Agrega productos a tu pedido!</h2>
+<!--Productos y Precios-->
+<div class="container" id="prices">
+  <div class="pricing-header p-1 pb-md-1 text-center mt-4 px-4" >
+      <h1 class="display-4 fw-normal">Camibusos Raglan</h1>
+      <p class="fs-5 text-muted ms-1 me-1">Camibuso en tela circuito suave y resistente tipo raglan, colores customizables, cuello, puños y cintura en tela Reed o normal, manga larga o 3x4, cuello redondo, en V o tipo bandeja para dama, gran detalle en terminados.</p>
+    </div>
+</div>
+<!--details banner-->
+<div data-aos="fade-down" data-aos-duration="1500" class="container-fluid p-0">
+  <img class="d-block d-md-none w-100" src="../../assets/img/hoodies/detailsm.jpg" alt="Hoodies banner móvil">
+  <img class="d-none d-md-block w-100" src="../../assets/img/hoodies/details.jpg" alt="Hoodies banner desk" style="object-fit: contain; max-height: 100vh;">
+</div>
+<div class="container" id="prices">
+     <div class="row row-cols-1 row-cols-md-2 text-center p-3 pb-4 pricing-margin ">
+          <div data-aos="fade-down" class="col">
+              <div class="card mb-4 rounded-3 shadow-sm m-1">
+                  <div class="card-header py-3 text-bg-primary border-primary">
+                      <h4 class="my-0 fw-normal">Camibuso Raglan Hombre</h4>
+                  </div>
+                  <div class="card-body">
+                    <div class="col m-2">
+                      <div class="container center-important">
+                          <app-carousel [images]="images4" [autoSlide]="true"></app-carousel>
+                          <!--<img src="../../assets/img/store/7.png" loading="lazy">-->
+                      </div>  
+                    </div>
+                      <h1 class="card-title pricing-card-title">$70.000<small class="text-muted fw-light">/mco</small></h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                          <li>Camibuso en tela circuito suave y resistente tipo raglanmanga larga o 3x4</li>
+                          <li>Cuello, puños y cintura en tela Reed o normal</li>
+                          <li>Cuello redondo, o en tipo V</li>
+                          <li>Mangas, cuello y cintura en borde de doble costura o en tela Reed</li>
+                          <li>Colores customizables</li>
+                          <li>gran detalle en confección y terminados</li>
+                      </ul>
+                      <!--<a type="button" class="w-100 btn btn-lg btn-outline-primary" routerLink="/hoodies">Detalles</a>-->
+                  </div>
+              </div>
+          </div>
+          <div data-aos="fade-up" class="col">
+              <div class="card mb-4 rounded-3 shadow-sm m-1">
+                  <div class="card-header py-3 text-bg-primary border-primary">
+                      <h4 class="my-0 fw-normal">Camibuso Raglan Mujer</h4>
+                  </div>
+                  <div class="card-body">
+                    <div class="col m-2">
+                      <div class="container center-important">
+                          <app-carousel [images]="images5" [autoSlide]="true"></app-carousel>
+                        <!--<img src="../../assets/img/store/4.png" loading="lazy">-->
+                      </div>  
+                    </div>
+                      <h1 class="card-title pricing-card-title">$70.000<small class="text-muted fw-light">/mco</small></h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li>Camibuso en tela circuito suave y resistente tipo raglanmanga larga o 3x4</li>
+                        <li>Cuello, puños y cintura en tela Reed o normal</li>
+                        <li>Cuello redondo, en V o tipo bandeja</li>
+                        <li>Mangas, cuello y cintura en borde de doble costura o en tela Reed</li>
+                        <li>Colores customizables</li>
+                        <li>gran detalle en confección y terminados</li>
+                    </ul>                      <!--<a type="button" class="w-100 btn btn-lg btn-outline-primary" routerLink="/raglan">Detalles</a>-->
+                  </div>
+              </div>
+          </div>
         </div>
-        <div class="d-flex align-items-center justify-content-center p-2 order-1 order-md-2 mobile-spacing">
-          <div class="ms-md-auto me-md-5">
-            <button class="btn btn-primary end-buy" routerLink="/shop">Ir a eShop</button>
+    <div class="d-flex align-items-center justify-content-center p-4 order-1 order-md-2 mobile-spacing">
+      <button class="btn btn-primary end-buy" routerLink="/estampados">Comprar Camisetas</button>
+    </div>
+</div>
+<!--Video Camisetas-->
+<div class="container-fluid p-0 mt-0 mb-4 position-relative">
+  <video class="w-100 d-none d-md-block" loop muted playsinline preload="auto">
+    <source src="../../assets/img/camisetas/Short Sleeve Crew.mp4" type="video/mp4">
+    Tu navegador no soporta el elemento de video.
+  </video>
+  <video class="w-100 d-md-none" style="aspect-ratio: 2/1; object-fit: cover;" loop muted playsinline preload="auto">
+    <source src="../../assets/img/camisetas/Short Sleeve Crew.mp4" type="video/mp4">
+    Tu navegador no soporta el elemento de video.
+  </video>
+  <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center">
+    <!--<button class="btn btn-primary end-buy" routerLink="/shop">Ir a eShop</button>
+    <h2 class="text-white mb-2" style="font-size: 2.5rem; font-weight: bold;">CAMISETAS BÁSICAS</h2>-->
+    <p class="text-white mb-3" style="font-size: 1.5rem;">CAMISETAS BÁSICAS</p>
+
+  </div>
+</div>
+<!--Camisetas Estampados-->
+<div class="container mt-4 mb-4">
+  <div data-aos="fade" data-aos-duration="1000" class="pricing-header p-1 pb-md-1 text-center mt-4 px-4" >
+    <h1 class="display-4 fw-normal">Camibusos Raglan Estampados</h1>
+    <p class="fs-5 text-muted ms-1 me-1">Escoge la imagen de tu preferencia o de nuestro catálogo eShop y disfruta de los mejores estampados en camibusos raglan con la mejor calidad Ex-DTF.</p>
+  </div>
+  <div class="card-group">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div data-aos="fade-down" data-aos-duration="1500" class="card h-100">
+          <img src="../../assets/img/store-prints/207-min.png" class="card-img-top p-4" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Estampado Sencillo</h5>
+            <p class="card-text text-center">Contiene un único estampado en la parte frontal (pecho) o reversa (espalda) del camibuso.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div data-aos="fade-up" data-aos-duration="1500" class="card h-100">
+          <img src="../../assets/img/store-prints/208-min.png" class="card-img-top p-4" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Estampado Doble</h5>
+            <p class="card-text text-center">Contiene un estampado en el frente (pecho) y en la parte reversa (espalda) del camibuso.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div data-aos="fade-up" data-aos-duration="1500" class="card h-100">
+          <img src="../../assets/img/store-prints/010-min.png" class="card-img-top p-4" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Estampado Triple</h5>
+            <p class="card-text text-center">Contiene un estampado en parte frontal, trasera y mangas del camibuso.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>-->
+  <div class="d-flex align-items-center justify-content-center p-4 order-1 order-md-2 mobile-spacing">
+    <button class="btn btn-primary end-buy" routerLink="/estampados">Ir a Estampados</button>
+  </div>
+</div>
+<!--Video Camisetas Raglan-->
+<div class="container-fluid p-0 mt-0 mb-4 position-relative">
+  <video class="w-100 d-none d-md-block" loop muted playsinline preload="auto">
+    <source src="../../assets/img/raglan/Raglan Short-Sleeve Unisex T-Shirt.mp4" type="video/mp4">
+    Tu navegador no soporta el elemento de video.
+  </video>
+  <video class="w-100 d-md-none" style="aspect-ratio: 1/1; object-fit: cover;" loop muted playsinline preload="auto">
+    <source src="../../assets/img/raglan/Raglan Short-Sleeve Unisex T-Shirt.mp4" type="video/mp4">
+    Tu navegador no soporta el elemento de video.
+  </video>
+  <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center">
+    <h2 class="text-white mb-2" style="font-size: 2.5rem; font-weight: bold;">CAMISETAS RAGLAN</h2>
+    <p class="text-white mb-3" style="font-size: 1.5rem;">Manga corta, 3/4 y manga larga</p>
+    <button class="btn btn-primary end-buy" routerLink="/shop">Comprar Camisetas</button>
+  </div>
+</div>
 <app-go-top></app-go-top>
 <!-- Footer -->
 <app-footer></app-footer>

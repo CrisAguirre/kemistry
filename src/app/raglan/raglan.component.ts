@@ -1,4 +1,6 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Router, ActivatedRoute, NavigationEnd } from '@angular/router';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-raglan',
@@ -6,8 +8,19 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
   styleUrls: ['./raglan.component.css']
 })
 export class RaglanComponent implements OnInit, AfterViewInit {
-  ngOnInit() {}
-
+  constructor( private route: ActivatedRoute, private router: Router ) {}
+  ngOnInit() {
+    AOS.init();
+    this.router.events.subscribe(s => {
+      if (s instanceof NavigationEnd) {
+        const tree = this.router.parseUrl(this.router.url);
+        if (tree.fragment) {
+          const element = document.querySelector("#" + tree.fragment);
+          if (element) { element.scrollIntoView(true); }
+        }
+      }
+    });
+  }
   ngAfterViewInit() {
     this.playVideos();
   }
@@ -83,4 +96,48 @@ export class RaglanComponent implements OnInit, AfterViewInit {
     },
   ]
 
+  images4 = [
+    {
+      imageSrc:
+        '../../assets/img/store/22.png',
+      imageAlt: 'kemistry1',
+    },
+    {
+      imageSrc:
+        '../../assets/img/store/26.png',
+      imageAlt: 'kemistry1',
+    },
+    {
+      imageSrc:
+        '../../assets/img/store/12.png',
+      imageAlt: 'kemistry1',
+    },
+    {
+      imageSrc:
+        '../../assets/img/store/24.png',
+      imageAlt: 'kemistry1',
+    },
+  ]
+  images5 = [
+    {
+      imageSrc:
+        '../../assets/img/store/27.png',
+      imageAlt: 'kemistry1',
+    },
+    {
+      imageSrc:
+        '../../assets/img/store/13.png',
+      imageAlt: 'kemistry1',
+    },
+    {
+      imageSrc:
+        '../../assets/img/store/9.png',
+      imageAlt: 'kemistry1',
+    },
+    {
+      imageSrc:
+        '../../assets/img/store/11.png',
+      imageAlt: 'kemistry1',
+    },
+  ]
 }
