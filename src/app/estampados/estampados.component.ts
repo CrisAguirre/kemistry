@@ -1,4 +1,6 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Router, ActivatedRoute, NavigationEnd } from '@angular/router';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-estampados',
@@ -6,7 +8,19 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
   styleUrls: ['./estampados.component.css']
 })
 export class EstampadosComponent implements OnInit, AfterViewInit {
-  ngOnInit() {}
+  constructor( private route: ActivatedRoute, private router: Router ) {}
+  ngOnInit() {
+    AOS.init();
+    this.router.events.subscribe(s => {
+      if (s instanceof NavigationEnd) {
+        const tree = this.router.parseUrl(this.router.url);
+        if (tree.fragment) {
+          const element = document.querySelector("#" + tree.fragment);
+          if (element) { element.scrollIntoView(true); }
+        }
+      }
+    });
+  }
 
   ngAfterViewInit() {
     this.playVideos();
