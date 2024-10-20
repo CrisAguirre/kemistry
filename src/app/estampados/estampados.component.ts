@@ -94,6 +94,11 @@ export class EstampadosComponent implements OnInit, AfterViewInit {
       imageSrc:
         '../../assets/img/estampados/slide/4m.jpg',
       imageAlt: 'kemistry_hoodies4',
+    },
+    {
+      imageSrc:
+        '../../assets/img/estampados/slide/5m.jpg',
+      imageAlt: 'kemistry_hoodies4',
     }
   ]
 }
