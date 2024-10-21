@@ -71,12 +71,7 @@ export class RaglanComponent implements OnInit, AfterViewInit {
       imageSrc:
         '../../assets/img/raglan/slide/4.jpg',
       imageAlt: 'kemistry4',
-    },
-    {
-      imageSrc:
-        '../../assets/img/raglan/slide/5.jpg',
-      imageAlt: 'kemistry4',
-    },
+    }
   ]
   images7m = [
     {
@@ -98,12 +93,7 @@ export class RaglanComponent implements OnInit, AfterViewInit {
       imageSrc:
         '../../assets/img/raglan/slide/4m.jpg',
       imageAlt: 'kemistry4',
-    },
-    {
-      imageSrc:
-        '../../assets/img/raglan/slide/5m.jpg',
-      imageAlt: 'kemistry4',
-    },
+    }
   ]
 
   images4 = [
