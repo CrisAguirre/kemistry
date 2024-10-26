@@ -43,3 +43,12 @@ iframe {
 h2 {
   font-size: 35px;
 }
+.btn-primary {
+  background-color: #007bff; /* Color del botón activo */
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #6c757d; /* Color del botón inactivo */
+  color: white;
+}
