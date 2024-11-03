@@ -197,7 +197,6 @@
                     <li>Manga: Larga, 3x4 y corta</li>
                     <li>Cuello circular y tipo bandeja</li>
                     <li>Gran detalle en terminados</li>
-                    <li></li>
                   </ul>
                   <a type="button" class="w-100 btn btn-lg btn-outline-primary" routerLink="/raglan">Detalles</a>
               </div>
@@ -214,13 +213,13 @@
                 <img src="../../assets/img/store/299.png" loading="lazy">
               </div>  
             </div>
-              <h1 class="card-title pricing-card-title">$35.000<small class="text-muted fw-light">/mco</small></h1>
+              <h1 class="card-title pricing-card-title">$30.000<small class="text-muted fw-light">/mco</small></h1>
               <ul class="list-unstyled mt-3 mb-4">
-                <li>Camiseta básica en algodón</li>
-                <li>Tela  circuito suave y resistente</li>
+                <li>Camiseta básica en algodón o</li>
+                <li>tela circuito suave y resistente</li>
                 <li>Excelente detalle en acabados</li>
                 <li>Amplia variedad en colores</li>
-                <li>Estampados perzonalizados</li>
+                <li>Tela elástica de gran durabilidad</li>
               </ul>
               <a type="button" class="w-100 btn btn-lg btn-outline-primary" routerLink="/camisetas">Detalles</a>
           </div>
@@ -242,64 +241,40 @@
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
       <div data-aos="zoom-in" data-aos-duration="1500" class="col">
         <div class="card grilla">
-          <img src="../../assets/img/var/card2.jpg" class="card-img-top" alt="...">
+          <div class="container center-important">
+            <app-carousel [images]="images3" [autoSlide]="true"></app-carousel>
+        </div>  
           <div class="card-body">
-            <h5 class="card-title">Rock & Metal</h5>
-            <p class="card-text">Imágenes de las bandas mas representativas del Rock y Heavy Metal.</p>
-            <a href="#" class="btn btn-primary">Detalles</a>
+            <h5 class="card-title">Anime - Comics</h5>
+            <p class="card-text">Estampados exclusivos de las mejores series de anime y comics.</p>
           </div>
         </div>
       </div>
       <div data-aos="zoom-in" data-aos-duration="1500" class="col">
         <div class="card grilla">
-          <img src="../../assets/img/var/card3.jpg" class="card-img-top" alt="...">
+          <div class="container center-important">
+            <app-carousel [images]="images4" [autoSlide]="true"></app-carousel>
+        </div>  
           <div class="card-body">
-            <h5 class="card-title">Anime</h5>
-            <p class="card-text">Estampados de las series de Anime y Manga más populares.</p>
-            <a href="#" class="btn btn-primary">Detalles</a>
+            <h5 class="card-title">Rock - Metal</h5>
+            <p class="card-text">Imágenes emblemáticas de bandas de rock y heavy metal.</p>
           </div>
         </div>
       </div>
       <div data-aos="zoom-in" data-aos-duration="1500" class="col">
         <div class="card grilla">
-          <img src="../../assets/img/var/card4.jpg" class="card-img-top" alt="...">
+          <div class="container center-important">
+            <app-carousel [images]="images5" [autoSlide]="true"></app-carousel>
+          </div>  
           <div class="card-body">
-            <h5 class="card-title">Comics</h5>
-            <p class="card-text">Los personajes más icónicos de Comics vintage y actual.</p>
-            <a href="#" class="btn btn-primary">Detalles</a>
+            <h5 class="card-title">Videojuegos - Tribal</h5>
+            <p class="card-text">Estampados de videojuegos y figuras tribales.</p>
           </div>
         </div>
       </div>
-      <div data-aos="zoom-in" data-aos-duration="1500" class="col">
-        <div class="card grilla">
-          <img src="../../assets/img/var/card1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Deportes</h5>
-            <p class="card-text">Diseños personalizados de tus equipos y selecciones favoritas.</p>
-            <a href="#" class="btn btn-primary">Detalles</a>
-          </div>
-        </div>
-      </div>
-      <div data-aos="zoom-in" data-aos-duration="1500" class="col">
-        <div class="card grilla">
-          <img src="../../assets/img/var/card5.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Videojuegos</h5>
-            <p class="card-text">Estampados de videojuegos y sus personajes más populares.</p>
-            <a href="#" class="btn btn-primary">Detalles</a>
-          </div>
-        </div>
-      </div>
-      <div data-aos="zoom-in" data-aos-duration="1500" class="col">
-        <div class="card grilla">
-          <img src="../../assets/img/var/card6.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Mitología</h5>
-            <p class="card-text">Imágenes de mundos y personajes míticos, incluye mitología nordica y griega entre otras.</p>
-            <a href="#" class="btn btn-primary">Detalles</a>
-          </div>
-        </div>
-      </div>
+    </div>
+    <div class="d-flex align-items-center justify-content-center p-4 order-1 order-md-2 mobile-spacing">
+      <button class="btn btn-primary end-buy" routerLink="/shop">Comprar estampados</button>
     </div>
   </div>
 </div>
