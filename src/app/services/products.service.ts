@@ -1304,40 +1304,7 @@ export class ShopService {
       img: '../../assets/img/store-prints/211-min.png',
       qty: 1,
       size: 'M',
-    },
-    {
-      name: 'Estampado personalizado sencillo',
-      description:'Estampado en la parte frontal o reversa, se aplica técnica de serigrafía obteniendo un estampado de calidad y duradero, diseño customizable.',
-      category: 'Estampados',
-      id: 150,
-      price: 25000,
-      identifier: 'Estampado Sencillo',
-      img: '../../assets/img/store/34.png',
-      qty: 1,
-      size: 'M',
-    },
-    {
-      name: 'Estampado personalizado doble',
-      description:'Estampado en la parte frontal y reversa del torso, se aplica técnica de serigrafía obteniendo un estampado de calidad y duradero, diseño customizable.',
-      category: 'Estampados',
-      id: 151,
-      price: 50000,
-      identifier: 'Estampado Doble',
-      img: '../../assets/img/store/35.png',
-      qty: 1,
-      size: 'M',
-    },
-    {
-      name: 'Estampado personalizado triple',
-      description:'Estampado en la parte frontal, reversa y mangas, se aplica técnica de serigrafía obteniendo un estampado de calidad y duradero, diseño customizable.',
-      category: 'Estampados',
-      id: 152,
-      price: 70000,
-      identifier: 'Estampado Triple',
-      img: '../../assets/img/store/36.png',
-      qty: 1,
-      size: 'M',
-    },
+    }
   ];
 
   private filteredProducts: BehaviorSubject<Product[]> = new BehaviorSubject<Product[]>(this.products);
