@@ -395,6 +395,16 @@ export class LandingComponent implements OnInit, AfterViewInit {
       imageSrc:
         '../../assets/img/store/3/20.png',
       imageAlt: 'kemistry20',
+    },
+    {
+      imageSrc:
+        '../../assets/img/store/3/21.png',
+      imageAlt: 'kemistry19',
+    },
+    {
+      imageSrc:
+        '../../assets/img/store/3/22.png',
+      imageAlt: 'kemistry20',
     }
   ]
 
