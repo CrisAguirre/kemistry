@@ -411,11 +411,6 @@ export class LandingComponent implements OnInit, AfterViewInit {
   images = [
     {
       imageSrc:
-        '../../assets/img/slide/1.jpg',
-      imageAlt: 'kemistry1',
-    },
-    {
-      imageSrc:
         '../../assets/img/slide/2.jpg',
       imageAlt: 'kemistry2',
     },
@@ -436,11 +431,6 @@ export class LandingComponent implements OnInit, AfterViewInit {
     }
   ]
   imagesm = [
-    {
-      imageSrc:
-        '../../assets/img/slide/1m.jpg',
-      imageAlt: 'kemistry1',
-    },
     {
       imageSrc:
         '../../assets/img/slide/2m.jpg',
